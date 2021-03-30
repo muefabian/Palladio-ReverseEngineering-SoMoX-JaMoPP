@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:classifiers="http://www.palladiosimulator.org/javamodel/classifiers" xmlns:containers="http://www.palladiosimulator.org/javamodel/containers" xmlns:generics="http://www.palladiosimulator.org/javamodel/generics" xmlns:imports="http://www.palladiosimulator.org/javamodel/imports" xmlns:members="http://www.palladiosimulator.org/javamodel/members" xmlns:modifiers="http://www.palladiosimulator.org/javamodel/modifiers" xmlns:parameters="http://www.palladiosimulator.org/javamodel/parameters" xmlns:types="http://www.palladiosimulator.org/javamodel/types">
+  <containers:CompilationUnit name="TimeoutException.java">
+    <namespaces>tools</namespaces>
+    <namespaces>descartes</namespaces>
+    <namespaces>teastore</namespaces>
+    <namespaces>registryclient</namespaces>
+    <namespaces>util</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="TimeoutException">
+      <members xsi:type="members:Field" name="ERROR_CODE">
+        <typeReference xsi:type="types:Int"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="modifiers:Static"/>
+        <annotationsAndModifiers xsi:type="modifiers:Final"/>
+      </members>
+      <members xsi:type="members:Field" name="serialVersionUID">
+        <typeReference xsi:type="types:Long"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+        <annotationsAndModifiers xsi:type="modifiers:Static"/>
+        <annotationsAndModifiers xsi:type="modifiers:Final"/>
+      </members>
+      <extends xsi:type="types:ClassifierReference" target="/16/@classifiers.0"/>
+    </classifiers>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="NotFoundException.java">
+    <namespaces>tools</namespaces>
+    <namespaces>descartes</namespaces>
+    <namespaces>teastore</namespaces>
+    <namespaces>registryclient</namespaces>
+    <namespaces>util</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="NotFoundException">
+      <members xsi:type="members:Field" name="ERROR_CODE">
+        <typeReference xsi:type="types:Int"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="modifiers:Static"/>
+        <annotationsAndModifiers xsi:type="modifiers:Final"/>
+      </members>
+      <members xsi:type="members:Field" name="serialVersionUID">
+        <typeReference xsi:type="types:Long"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+        <annotationsAndModifiers xsi:type="modifiers:Static"/>
+        <annotationsAndModifiers xsi:type="modifiers:Final"/>
+      </members>
+      <extends xsi:type="types:ClassifierReference" target="/16/@classifiers.0"/>
+    </classifiers>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="RESTClient.java">
+    <namespaces>tools</namespaces>
+    <namespaces>descartes</namespaces>
+    <namespaces>teastore</namespaces>
+    <namespaces>registryclient</namespaces>
+    <namespaces>util</namespaces>
+    <imports xsi:type="imports:ClassifierImport" classifier="/4/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>glassfish</namespaces>
+      <namespaces>jersey</namespaces>
+      <namespaces>client</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/5/@classifiers.0">
+      <namespaces>java</namespaces>
+      <namespaces>util</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/6/@classifiers.0">
+      <namespaces>javax</namespaces>
+      <namespaces>ws</namespaces>
+      <namespaces>rs</namespaces>
+      <namespaces>client</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/7/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>glassfish</namespaces>
+      <namespaces>jersey</namespaces>
+      <namespaces>grizzly</namespaces>
+      <namespaces>connector</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/8/@classifiers.0">
+      <namespaces>java</namespaces>
+      <namespaces>lang</namespaces>
+      <namespaces>reflect</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/9/@classifiers.0">
+      <namespaces>javax</namespaces>
+      <namespaces>ws</namespaces>
+      <namespaces>rs</namespaces>
+      <namespaces>core</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/10/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>glassfish</namespaces>
+      <namespaces>jersey</namespaces>
+      <namespaces>client</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/11/@classifiers.0">
+      <namespaces>java</namespaces>
+      <namespaces>lang</namespaces>
+      <namespaces>reflect</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/12/@classifiers.0">
+      <namespaces>javax</namespaces>
+      <namespaces>ws</namespaces>
+      <namespaces>rs</namespaces>
+      <namespaces>client</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/13/@classifiers.0">
+      <namespaces>javax</namespaces>
+      <namespaces>ws</namespaces>
+      <namespaces>rs</namespaces>
+      <namespaces>client</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/14/@classifiers.0">
+      <namespaces>javax</namespaces>
+      <namespaces>ws</namespaces>
+      <namespaces>rs</namespaces>
+      <namespaces>core</namespaces>
+    </imports>
+    <classifiers xsi:type="classifiers:Class" name="RESTClient">
+      <typeParameters name="T"/>
+      <members xsi:type="members:Field" name="DEFAULT_READ_TIMEOUT">
+        <typeReference xsi:type="types:Int"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+        <annotationsAndModifiers xsi:type="modifiers:Static"/>
+        <annotationsAndModifiers xsi:type="modifiers:Final"/>
+      </members>
+      <members xsi:type="members:Field" name="applicationURI">
+        <typeReference xsi:type="types:ClassifierReference" target="/19/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="entityClass">
+        <typeReference xsi:type="types:ClassifierReference" target="/20/@classifiers.0">
+          <typeArguments xsi:type="generics:QualifiedTypeArgument">
+            <typeReference xsi:type="types:ClassifierReference" target="/2/@classifiers.0/@typeParameters.0"/>
+          </typeArguments>
+        </typeReference>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="connectTimeout">
+        <typeReference xsi:type="types:Int"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+        <annotationsAndModifiers xsi:type="modifiers:Static"/>
+      </members>
+      <members xsi:type="members:Field" name="DEFAULT_CONNECT_TIMEOUT">
+        <typeReference xsi:type="types:Int"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+        <annotationsAndModifiers xsi:type="modifiers:Static"/>
+        <annotationsAndModifiers xsi:type="modifiers:Final"/>
+      </members>
+      <members xsi:type="members:Field" name="client">
+        <typeReference xsi:type="types:ClassifierReference" target="/12/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="DEFAULT_REST_APPLICATION">
+        <typeReference xsi:type="types:ClassifierReference" target="/19/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="modifiers:Static"/>
+        <annotationsAndModifiers xsi:type="modifiers:Final"/>
+      </members>
+      <members xsi:type="members:Field" name="endpointURI">
+        <typeReference xsi:type="types:ClassifierReference" target="/19/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="parameterizedGenericType">
+        <typeReference xsi:type="types:ClassifierReference" target="/8/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="genericListType">
+        <typeReference xsi:type="types:ClassifierReference" target="/9/@classifiers.0">
+          <typeArguments xsi:type="generics:QualifiedTypeArgument">
+            <typeReference xsi:type="types:ClassifierReference" target="/5/@classifiers.0">
+              <typeArguments xsi:type="generics:QualifiedTypeArgument">
+                <typeReference xsi:type="types:ClassifierReference" target="/2/@classifiers.0/@typeParameters.0"/>
+              </typeArguments>
+            </typeReference>
+          </typeArguments>
+        </typeReference>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="service">
+        <typeReference xsi:type="types:ClassifierReference" target="/13/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="readTimeout">
+        <typeReference xsi:type="types:Int"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+        <annotationsAndModifiers xsi:type="modifiers:Static"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getEndpointTarget">
+        <typeReference xsi:type="types:ClassifierReference" target="/13/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getApplicationURI">
+        <typeReference xsi:type="types:ClassifierReference" target="/19/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getActualTypeArguments">
+        <typeReference xsi:type="types:ClassifierReference" target="/11/@classifiers.0"/>
+        <arrayDimensionsBefore/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getOwnerType">
+        <typeReference xsi:type="types:ClassifierReference" target="/11/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setGlobalConnectTimeout">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="connectTimeout">
+          <typeReference xsi:type="types:Int"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="modifiers:Static"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getService">
+        <typeReference xsi:type="types:ClassifierReference" target="/13/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getEntityClass">
+        <typeReference xsi:type="types:ClassifierReference" target="/20/@classifiers.0">
+          <typeArguments xsi:type="generics:QualifiedTypeArgument">
+            <typeReference xsi:type="types:ClassifierReference" target="/2/@classifiers.0/@typeParameters.0"/>
+          </typeArguments>
+        </typeReference>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getRawType">
+        <typeReference xsi:type="types:ClassifierReference" target="/11/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getEndpointURI">
+        <typeReference xsi:type="types:ClassifierReference" target="/19/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setGlobalReadTimeout">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="readTimeout">
+          <typeReference xsi:type="types:Int"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="modifiers:Static"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getGenericListType">
+        <typeReference xsi:type="types:ClassifierReference" target="/9/@classifiers.0">
+          <typeArguments xsi:type="generics:QualifiedTypeArgument">
+            <typeReference xsi:type="types:ClassifierReference" target="/5/@classifiers.0">
+              <typeArguments xsi:type="generics:QualifiedTypeArgument">
+                <typeReference xsi:type="types:ClassifierReference" target="/2/@classifiers.0/@typeParameters.0"/>
+              </typeArguments>
+            </typeReference>
+          </typeArguments>
+        </typeReference>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+    </classifiers>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="ServiceLoadBalancerResult.java">
+    <namespaces>tools</namespaces>
+    <namespaces>descartes</namespaces>
+    <namespaces>teastore</namespaces>
+    <namespaces>registryclient</namespaces>
+    <namespaces>loadbalancers</namespaces>
+    <imports xsi:type="imports:ClassifierImport" classifier="/15/@classifiers.0">
+      <namespaces>java</namespaces>
+      <namespaces>util</namespaces>
+      <namespaces>function</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/2/@classifiers.0">
+      <namespaces>tools</namespaces>
+      <namespaces>descartes</namespaces>
+      <namespaces>teastore</namespaces>
+      <namespaces>registryclient</namespaces>
+      <namespaces>util</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/0/@classifiers.0">
+      <namespaces>tools</namespaces>
+      <namespaces>descartes</namespaces>
+      <namespaces>teastore</namespaces>
+      <namespaces>registryclient</namespaces>
+      <namespaces>util</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/1/@classifiers.0">
+      <namespaces>tools</namespaces>
+      <namespaces>descartes</namespaces>
+      <namespaces>teastore</namespaces>
+      <namespaces>registryclient</namespaces>
+      <namespaces>util</namespaces>
+    </imports>
+    <classifiers xsi:type="classifiers:Class" name="ServiceLoadBalancerResult">
+      <typeParameters name="R"/>
+      <members xsi:type="members:Field" name="statusCode">
+        <typeReference xsi:type="types:Int"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="entity">
+        <typeReference xsi:type="types:ClassifierReference" target="/3/@classifiers.0/@typeParameters.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getStatusCode">
+        <typeReference xsi:type="types:Int"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setStatusCode">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="statusCode">
+          <typeReference xsi:type="types:Int"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getEntity">
+        <typeReference xsi:type="types:ClassifierReference" target="/3/@classifiers.0/@typeParameters.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="fromRESTOperation">
+        <typeReference xsi:type="types:ClassifierReference" target="/3/@classifiers.0">
+          <typeArguments xsi:type="generics:QualifiedTypeArgument">
+            <typeReference xsi:type="types:ClassifierReference" target="/3/@classifiers.0/@typeParameters.0"/>
+          </typeArguments>
+        </typeReference>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="client">
+          <typeReference xsi:type="types:ClassifierReference" target="/2/@classifiers.0">
+            <typeArguments xsi:type="generics:QualifiedTypeArgument">
+              <typeReference xsi:type="types:ClassifierReference"/>
+            </typeArguments>
+          </typeReference>
+        </parameters>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="operation">
+          <typeReference xsi:type="types:ClassifierReference" target="/15/@classifiers.0">
+            <typeArguments xsi:type="generics:QualifiedTypeArgument">
+              <typeReference xsi:type="types:ClassifierReference" target="/2/@classifiers.0">
+                <typeArguments xsi:type="generics:QualifiedTypeArgument">
+                  <typeReference xsi:type="types:ClassifierReference"/>
+                </typeArguments>
+              </typeReference>
+            </typeArguments>
+            <typeArguments xsi:type="generics:QualifiedTypeArgument">
+              <typeReference xsi:type="types:ClassifierReference" target="/3/@classifiers.0/@typeParameters.0"/>
+            </typeArguments>
+          </typeReference>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Static"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setEntity">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="entity">
+          <typeReference xsi:type="types:ClassifierReference" target="/3/@classifiers.0/@typeParameters.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+    </classifiers>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.glassfish.jersey.client.ClientProperties.java">
+    <namespaces>org</namespaces>
+    <namespaces>glassfish</namespaces>
+    <namespaces>jersey</namespaces>
+    <namespaces>client</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="ClientProperties"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="java.util.List.java">
+    <namespaces>java</namespaces>
+    <namespaces>util</namespaces>
+    <classifiers xsi:type="classifiers:Interface" name="List"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="javax.ws.rs.client.ClientBuilder.java">
+    <namespaces>javax</namespaces>
+    <namespaces>ws</namespaces>
+    <namespaces>rs</namespaces>
+    <namespaces>client</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="ClientBuilder"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.glassfish.jersey.grizzly.connector.GrizzlyConnectorProvider.java">
+    <namespaces>org</namespaces>
+    <namespaces>glassfish</namespaces>
+    <namespaces>jersey</namespaces>
+    <namespaces>grizzly</namespaces>
+    <namespaces>connector</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="GrizzlyConnectorProvider"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="java.lang.reflect.ParameterizedType.java">
+    <namespaces>java</namespaces>
+    <namespaces>lang</namespaces>
+    <namespaces>reflect</namespaces>
+    <classifiers xsi:type="classifiers:Interface" name="ParameterizedType"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="javax.ws.rs.core.GenericType.java">
+    <namespaces>javax</namespaces>
+    <namespaces>ws</namespaces>
+    <namespaces>rs</namespaces>
+    <namespaces>core</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="GenericType"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.glassfish.jersey.client.ClientConfig.java">
+    <namespaces>org</namespaces>
+    <namespaces>glassfish</namespaces>
+    <namespaces>jersey</namespaces>
+    <namespaces>client</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="ClientConfig"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="java.lang.reflect.Type.java">
+    <namespaces>java</namespaces>
+    <namespaces>lang</namespaces>
+    <namespaces>reflect</namespaces>
+    <classifiers xsi:type="classifiers:Interface" name="Type"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="javax.ws.rs.client.Client.java">
+    <namespaces>javax</namespaces>
+    <namespaces>ws</namespaces>
+    <namespaces>rs</namespaces>
+    <namespaces>client</namespaces>
+    <classifiers xsi:type="classifiers:Interface" name="Client"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="javax.ws.rs.client.WebTarget.java">
+    <namespaces>javax</namespaces>
+    <namespaces>ws</namespaces>
+    <namespaces>rs</namespaces>
+    <namespaces>client</namespaces>
+    <classifiers xsi:type="classifiers:Interface" name="WebTarget"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="javax.ws.rs.core.UriBuilder.java">
+    <namespaces>javax</namespaces>
+    <namespaces>ws</namespaces>
+    <namespaces>rs</namespaces>
+    <namespaces>core</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="UriBuilder"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="java.util.function.Function.java">
+    <namespaces>java</namespaces>
+    <namespaces>util</namespaces>
+    <namespaces>function</namespaces>
+    <classifiers xsi:type="classifiers:Interface" name="Function"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="java.lang.RuntimeException.java">
+    <namespaces>java</namespaces>
+    <namespaces>lang</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="RuntimeException"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="T.java"/>
+  <containers:CompilationUnit name="T.java"/>
+  <containers:CompilationUnit name="java.lang.String.java">
+    <namespaces>java</namespaces>
+    <namespaces>lang</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="String"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="java.lang.Class.java">
+    <namespaces>java</namespaces>
+    <namespaces>lang</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="Class"/>
+  </containers:CompilationUnit>
+</xmi:XMI>

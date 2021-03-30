@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:annotations="http://www.palladiosimulator.org/javamodel/annotations" xmlns:classifiers="http://www.palladiosimulator.org/javamodel/classifiers" xmlns:containers="http://www.palladiosimulator.org/javamodel/containers" xmlns:generics="http://www.palladiosimulator.org/javamodel/generics" xmlns:imports="http://www.palladiosimulator.org/javamodel/imports" xmlns:instantiations="http://www.palladiosimulator.org/javamodel/instantiations" xmlns:members="http://www.palladiosimulator.org/javamodel/members" xmlns:modifiers="http://www.palladiosimulator.org/javamodel/modifiers" xmlns:parameters="http://www.palladiosimulator.org/javamodel/parameters" xmlns:types="http://www.palladiosimulator.org/javamodel/types">
+  <containers:CompilationUnit name="ConstantKeyProvider.java">
+    <namespaces>tools</namespaces>
+    <namespaces>descartes</namespaces>
+    <namespaces>teastore</namespaces>
+    <namespaces>auth</namespaces>
+    <namespaces>security</namespaces>
+    <imports xsi:type="imports:ClassifierImport" classifier="/3/@classifiers.0">
+      <namespaces>tools</namespaces>
+      <namespaces>descartes</namespaces>
+      <namespaces>teastore</namespaces>
+      <namespaces>entities</namespaces>
+      <namespaces>message</namespaces>
+    </imports>
+    <classifiers xsi:type="classifiers:Class" name="ConstantKeyProvider">
+      <members xsi:type="members:ClassMethod" name="getKey">
+        <typeReference xsi:type="types:ClassifierReference" target="/7/@classifiers.0"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="blob">
+          <typeReference xsi:type="types:ClassifierReference" target="/3/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/0/@classifiers.1"/>
+      </members>
+      <implements xsi:type="types:ClassifierReference" target="/4/@classifiers.0"/>
+    </classifiers>
+    <classifiers xsi:type="classifiers:Annotation" name="Override"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="Order.java">
+    <namespaces>tools</namespaces>
+    <namespaces>descartes</namespaces>
+    <namespaces>teastore</namespaces>
+    <namespaces>entities</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="Order">
+      <members xsi:type="members:Field" name="creditCardNumber">
+        <typeReference xsi:type="types:ClassifierReference" target="/7/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="address2">
+        <typeReference xsi:type="types:ClassifierReference" target="/7/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="addressName">
+        <typeReference xsi:type="types:ClassifierReference" target="/7/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="creditCardExpiryDate">
+        <typeReference xsi:type="types:ClassifierReference" target="/7/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="userId">
+        <typeReference xsi:type="types:Long"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="id">
+        <typeReference xsi:type="types:Long"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="address1">
+        <typeReference xsi:type="types:ClassifierReference" target="/7/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="creditCardCompany">
+        <typeReference xsi:type="types:ClassifierReference" target="/7/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="totalPriceInCents">
+        <typeReference xsi:type="types:Long"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="time">
+        <typeReference xsi:type="types:ClassifierReference" target="/7/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getAddress2">
+        <typeReference xsi:type="types:ClassifierReference" target="/7/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getCreditCardNumber">
+        <typeReference xsi:type="types:ClassifierReference" target="/7/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getCreditCardExpiryDate">
+        <typeReference xsi:type="types:ClassifierReference" target="/7/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="equals">
+        <typeReference xsi:type="types:Boolean"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="obj">
+          <typeReference xsi:type="types:ClassifierReference" target="/9/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/1/@classifiers.2"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setAddressName">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="addressName">
+          <typeReference xsi:type="types:ClassifierReference" target="/7/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setId">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="id">
+          <typeReference xsi:type="types:Long"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setCreditCardExpiryDate">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="creditCardExpiryDate">
+          <typeReference xsi:type="types:ClassifierReference" target="/7/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setCreditCardNumber">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="creditCardNumber">
+          <typeReference xsi:type="types:ClassifierReference" target="/7/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setUserId">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="userId">
+          <typeReference xsi:type="types:Long"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setAddress1">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="address1">
+          <typeReference xsi:type="types:ClassifierReference" target="/7/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getUserId">
+        <typeReference xsi:type="types:Long"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setTime">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="time">
+          <typeReference xsi:type="types:ClassifierReference" target="/7/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getTime">
+        <typeReference xsi:type="types:ClassifierReference" target="/7/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getId">
+        <typeReference xsi:type="types:Long"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getTotalPriceInCents">
+        <typeReference xsi:type="types:Long"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setTotalPriceInCents">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="totalPriceInCents">
+          <typeReference xsi:type="types:Long"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getCreditCardCompany">
+        <typeReference xsi:type="types:ClassifierReference" target="/7/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setAddress2">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="address2">
+          <typeReference xsi:type="types:ClassifierReference" target="/7/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setCreditCardCompany">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="creditCardCompany">
+          <typeReference xsi:type="types:ClassifierReference" target="/7/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getAddressName">
+        <typeReference xsi:type="types:ClassifierReference" target="/7/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getAddress1">
+        <typeReference xsi:type="types:ClassifierReference" target="/7/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="hashCode">
+        <typeReference xsi:type="types:Int"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/1/@classifiers.1"/>
+      </members>
+    </classifiers>
+    <classifiers xsi:type="classifiers:Annotation" name="Override"/>
+    <classifiers xsi:type="classifiers:Annotation" name="Override"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="OrderItem.java">
+    <namespaces>tools</namespaces>
+    <namespaces>descartes</namespaces>
+    <namespaces>teastore</namespaces>
+    <namespaces>entities</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="OrderItem">
+      <members xsi:type="members:Field" name="id">
+        <typeReference xsi:type="types:Long"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="orderId">
+        <typeReference xsi:type="types:Long"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="quantity">
+        <typeReference xsi:type="types:Int"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="unitPriceInCents">
+        <typeReference xsi:type="types:Long"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="productId">
+        <typeReference xsi:type="types:Long"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getId">
+        <typeReference xsi:type="types:Long"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getQuantity">
+        <typeReference xsi:type="types:Int"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setId">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="id">
+          <typeReference xsi:type="types:Long"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="hashCode">
+        <typeReference xsi:type="types:Int"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/2/@classifiers.2"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setProductId">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="productId">
+          <typeReference xsi:type="types:Long"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getProductId">
+        <typeReference xsi:type="types:Long"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setOrderId">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="orderId">
+          <typeReference xsi:type="types:Long"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setQuantity">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="quantity">
+          <typeReference xsi:type="types:Int"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setUnitPriceInCents">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="unitPriceInCents">
+          <typeReference xsi:type="types:Long"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="equals">
+        <typeReference xsi:type="types:Boolean"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="obj">
+          <typeReference xsi:type="types:ClassifierReference" target="/9/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/2/@classifiers.1"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getUnitPriceInCents">
+        <typeReference xsi:type="types:Long"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getOrderId">
+        <typeReference xsi:type="types:Long"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+    </classifiers>
+    <classifiers xsi:type="classifiers:Annotation" name="Override"/>
+    <classifiers xsi:type="classifiers:Annotation" name="Override"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="SessionBlob.java">
+    <namespaces>tools</namespaces>
+    <namespaces>descartes</namespaces>
+    <namespaces>teastore</namespaces>
+    <namespaces>entities</namespaces>
+    <namespaces>message</namespaces>
+    <imports xsi:type="imports:ClassifierImport" classifier="/5/@classifiers.0">
+      <namespaces>java</namespaces>
+      <namespaces>util</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/1/@classifiers.0">
+      <namespaces>tools</namespaces>
+      <namespaces>descartes</namespaces>
+      <namespaces>teastore</namespaces>
+      <namespaces>entities</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/2/@classifiers.0">
+      <namespaces>tools</namespaces>
+      <namespaces>descartes</namespaces>
+      <namespaces>teastore</namespaces>
+      <namespaces>entities</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/6/@classifiers.0">
+      <namespaces>java</namespaces>
+      <namespaces>util</namespaces>
+    </imports>
+    <classifiers xsi:type="classifiers:Class" name="SessionBlob">
+      <members xsi:type="members:Field" name="orderItems">
+        <initialValue xsi:type="instantiations:NewConstructorCall"/>
+        <typeReference xsi:type="types:ClassifierReference" target="/5/@classifiers.0">
+          <typeArguments xsi:type="generics:QualifiedTypeArgument">
+            <typeReference xsi:type="types:ClassifierReference" target="/2/@classifiers.0"/>
+          </typeArguments>
+        </typeReference>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="uid">
+        <typeReference xsi:type="types:ClassifierReference" target="/8/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="order">
+        <typeReference xsi:type="types:ClassifierReference" target="/1/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="sid">
+        <typeReference xsi:type="types:ClassifierReference" target="/7/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="token">
+        <typeReference xsi:type="types:ClassifierReference" target="/7/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="message">
+        <typeReference xsi:type="types:ClassifierReference" target="/7/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setSID">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="sID">
+          <typeReference xsi:type="types:ClassifierReference" target="/7/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getMessage">
+        <typeReference xsi:type="types:ClassifierReference" target="/7/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getSID">
+        <typeReference xsi:type="types:ClassifierReference" target="/7/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setOrder">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="order">
+          <typeReference xsi:type="types:ClassifierReference" target="/1/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setOrderItems">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="orderItems">
+          <typeReference xsi:type="types:ClassifierReference" target="/5/@classifiers.0">
+            <typeArguments xsi:type="generics:QualifiedTypeArgument">
+              <typeReference xsi:type="types:ClassifierReference" target="/2/@classifiers.0"/>
+            </typeArguments>
+          </typeReference>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getUID">
+        <typeReference xsi:type="types:ClassifierReference" target="/8/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setUID">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="uID">
+          <typeReference xsi:type="types:ClassifierReference" target="/8/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setMessage">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="message">
+          <typeReference xsi:type="types:ClassifierReference" target="/7/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getToken">
+        <typeReference xsi:type="types:ClassifierReference" target="/7/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getOrderItems">
+        <typeReference xsi:type="types:ClassifierReference" target="/5/@classifiers.0">
+          <typeArguments xsi:type="generics:QualifiedTypeArgument">
+            <typeReference xsi:type="types:ClassifierReference" target="/2/@classifiers.0"/>
+          </typeArguments>
+        </typeReference>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getOrder">
+        <typeReference xsi:type="types:ClassifierReference" target="/1/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setToken">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="token">
+          <typeReference xsi:type="types:ClassifierReference" target="/7/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+    </classifiers>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="IKeyProvider.java">
+    <namespaces>tools</namespaces>
+    <namespaces>descartes</namespaces>
+    <namespaces>teastore</namespaces>
+    <namespaces>auth</namespaces>
+    <namespaces>security</namespaces>
+    <imports xsi:type="imports:ClassifierImport" classifier="/3/@classifiers.0">
+      <namespaces>tools</namespaces>
+      <namespaces>descartes</namespaces>
+      <namespaces>teastore</namespaces>
+      <namespaces>entities</namespaces>
+      <namespaces>message</namespaces>
+    </imports>
+    <classifiers xsi:type="classifiers:Interface" name="IKeyProvider">
+      <members xsi:type="members:ClassMethod" name="getKey">
+        <typeReference xsi:type="types:ClassifierReference" target="/7/@classifiers.0"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="blob">
+          <typeReference xsi:type="types:ClassifierReference" target="/3/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+    </classifiers>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="java.util.List.java">
+    <namespaces>java</namespaces>
+    <namespaces>util</namespaces>
+    <classifiers xsi:type="classifiers:Interface" name="List"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="java.util.LinkedList.java">
+    <namespaces>java</namespaces>
+    <namespaces>util</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="LinkedList"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="java.lang.String.java">
+    <namespaces>java</namespaces>
+    <namespaces>lang</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="String"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="java.lang.Long.java">
+    <namespaces>java</namespaces>
+    <namespaces>lang</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="Long"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="java.lang.Object.java">
+    <namespaces>java</namespaces>
+    <namespaces>lang</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="Object"/>
+  </containers:CompilationUnit>
+</xmi:XMI>

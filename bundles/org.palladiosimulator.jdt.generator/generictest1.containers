@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:classifiers="http://www.palladiosimulator.org/javamodel/classifiers" xmlns:containers="http://www.palladiosimulator.org/javamodel/containers" xmlns:generics="http://www.palladiosimulator.org/javamodel/generics" xmlns:members="http://www.palladiosimulator.org/javamodel/members" xmlns:modifiers="http://www.palladiosimulator.org/javamodel/modifiers" xmlns:parameters="http://www.palladiosimulator.org/javamodel/parameters" xmlns:types="http://www.palladiosimulator.org/javamodel/types">
+  <containers:CompilationUnit name="MeineGenerischeKlasse3.java">
+    <classifiers xsi:type="classifiers:Class" name="MeineGenerischeKlasse3">
+      <typeParameters name="T1"/>
+      <typeParameters name="T2"/>
+      <typeParameters name="T3"/>
+      <members xsi:type="members:ClassMethod" name="meineMethode">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="parm1">
+          <typeReference xsi:type="types:ClassifierReference" target="/0/@classifiers.0/@typeParameters.0"/>
+        </parameters>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="parm2">
+          <typeReference xsi:type="types:ClassifierReference" target="/0/@classifiers.0/@typeParameters.1"/>
+        </parameters>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="parm3">
+          <typeReference xsi:type="types:ClassifierReference" target="/0/@classifiers.0/@typeParameters.2"/>
+        </parameters>
+      </members>
+      <extends xsi:type="types:ClassifierReference" target="/1/@classifiers.0">
+        <typeArguments xsi:type="generics:QualifiedTypeArgument">
+          <typeReference xsi:type="types:ClassifierReference" target="/0/@classifiers.0/@typeParameters.0"/>
+        </typeArguments>
+      </extends>
+    </classifiers>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="MeineGenerischeKlasse.java">
+    <classifiers xsi:type="classifiers:Class" name="MeineGenerischeKlasse">
+      <typeParameters name="T"/>
+      <members xsi:type="members:Field" name="attribut">
+        <typeReference xsi:type="types:ClassifierReference" target="/1/@classifiers.0/@typeParameters.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setAttribut">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="attribut">
+          <typeReference xsi:type="types:ClassifierReference" target="/1/@classifiers.0/@typeParameters.0"/>
+        </parameters>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getAttribut">
+        <typeReference xsi:type="types:ClassifierReference" target="/1/@classifiers.0/@typeParameters.0"/>
+      </members>
+    </classifiers>
+  </containers:CompilationUnit>
+</xmi:XMI>

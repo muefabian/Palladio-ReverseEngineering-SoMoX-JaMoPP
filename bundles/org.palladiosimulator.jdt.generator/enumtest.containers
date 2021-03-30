@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:annotations="http://www.palladiosimulator.org/javamodel/annotations" xmlns:classifiers="http://www.palladiosimulator.org/javamodel/classifiers" xmlns:containers="http://www.palladiosimulator.org/javamodel/containers" xmlns:members="http://www.palladiosimulator.org/javamodel/members" xmlns:modifiers="http://www.palladiosimulator.org/javamodel/modifiers" xmlns:parameters="http://www.palladiosimulator.org/javamodel/parameters" xmlns:references="http://www.palladiosimulator.org/javamodel/references" xmlns:types="http://www.palladiosimulator.org/javamodel/types">
+  <containers:CompilationUnit name="ImageSize.java">
+    <namespaces>tools</namespaces>
+    <namespaces>descartes</namespaces>
+    <namespaces>teastore</namespaces>
+    <namespaces>entities</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="ImageSize">
+      <members xsi:type="members:Field" name="height">
+        <typeReference xsi:type="types:Int"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="IMAGE_SIZE_DIVIDER">
+        <typeReference xsi:type="types:ClassifierReference" target="/3/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="modifiers:Static"/>
+        <annotationsAndModifiers xsi:type="modifiers:Final"/>
+      </members>
+      <members xsi:type="members:Field" name="width">
+        <typeReference xsi:type="types:Int"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="hashCode">
+        <typeReference xsi:type="types:Int"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/0/@classifiers.2"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setWidth">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="width">
+          <typeReference xsi:type="types:Int"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="parseImageSize">
+        <typeReference xsi:type="types:ClassifierReference" target="/0/@classifiers.0"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="str">
+          <typeReference xsi:type="types:ClassifierReference" target="/3/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="modifiers:Static"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="toString">
+        <typeReference xsi:type="types:ClassifierReference" target="/3/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/0/@classifiers.3"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setHeight">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="height">
+          <typeReference xsi:type="types:Int"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="equals">
+        <typeReference xsi:type="types:Boolean"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="obj">
+          <typeReference xsi:type="types:ClassifierReference" target="/4/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/0/@classifiers.1"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getPixelCount">
+        <typeReference xsi:type="types:Int"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getWidth">
+        <typeReference xsi:type="types:Int"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getHeight">
+        <typeReference xsi:type="types:Int"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+    </classifiers>
+    <classifiers xsi:type="classifiers:Annotation" name="Override"/>
+    <classifiers xsi:type="classifiers:Annotation" name="Override"/>
+    <classifiers xsi:type="classifiers:Annotation" name="Override"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="ImageSizePreset.java">
+    <namespaces>tools</namespaces>
+    <namespaces>descartes</namespaces>
+    <namespaces>teastore</namespaces>
+    <namespaces>entities</namespaces>
+    <classifiers xsi:type="classifiers:Enumeration" name="ImageSizePreset">
+      <members xsi:type="members:Field" name="STD_IMAGE_SIZE">
+        <typeReference xsi:type="types:ClassifierReference" target="/0/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="modifiers:Static"/>
+        <annotationsAndModifiers xsi:type="modifiers:Final"/>
+      </members>
+      <members xsi:type="members:Field" name="size">
+        <typeReference xsi:type="types:ClassifierReference" target="/0/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+        <annotationsAndModifiers xsi:type="modifiers:Final"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getSize">
+        <typeReference xsi:type="types:ClassifierReference" target="/0/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <constants name="PREVIEW">
+        <arguments xsi:type="references:StringReference" value="new ImageSize(64,64)"/>
+      </constants>
+      <constants name="LOGO">
+        <arguments xsi:type="references:StringReference" value="new ImageSize(600,195)"/>
+      </constants>
+      <constants name="PORTRAIT">
+        <arguments xsi:type="references:StringReference" value="new ImageSize(160,240)"/>
+      </constants>
+      <constants name="ICON">
+        <arguments xsi:type="references:StringReference" value="new ImageSize(64,64)"/>
+      </constants>
+      <constants name="RECOMMENDATION">
+        <arguments xsi:type="references:StringReference" value="new ImageSize(125,125)"/>
+      </constants>
+      <constants name="FULL">
+        <arguments xsi:type="references:StringReference" value="new ImageSize(300,300)"/>
+      </constants>
+      <constants name="MAIN_IMAGE">
+        <arguments xsi:type="references:StringReference" value="new ImageSize(400,310)"/>
+      </constants>
+      <constants name="ERROR">
+        <arguments xsi:type="references:StringReference" value="new ImageSize(600,400)"/>
+      </constants>
+      <constants name="INDEX">
+        <arguments xsi:type="references:StringReference" value="new ImageSize(600,450)"/>
+      </constants>
+    </classifiers>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="Service.java">
+    <namespaces>tools</namespaces>
+    <namespaces>descartes</namespaces>
+    <namespaces>teastore</namespaces>
+    <namespaces>registryclient</namespaces>
+    <classifiers xsi:type="classifiers:Enumeration" name="Service">
+      <members xsi:type="members:Field" name="serviceName">
+        <typeReference xsi:type="types:ClassifierReference" target="/3/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getServiceName">
+        <typeReference xsi:type="types:ClassifierReference" target="/3/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <constants name="RECOMMENDER">
+        <arguments xsi:type="references:StringReference" value="&quot;tools.descartes.teastore.recommender&quot;"/>
+      </constants>
+      <constants name="WEBUI">
+        <arguments xsi:type="references:StringReference" value="&quot;tools.descartes.teastore.webui&quot;"/>
+      </constants>
+      <constants name="AUTH">
+        <arguments xsi:type="references:StringReference" value="&quot;tools.descartes.teastore.auth&quot;"/>
+      </constants>
+      <constants name="PERSISTENCE">
+        <arguments xsi:type="references:StringReference" value="&quot;tools.descartes.teastore.persistence&quot;"/>
+      </constants>
+      <constants name="IMAGE">
+        <arguments xsi:type="references:StringReference" value="&quot;tools.descartes.teastore.image&quot;"/>
+      </constants>
+    </classifiers>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="java.lang.String.java">
+    <namespaces>java</namespaces>
+    <namespaces>lang</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="String"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="java.lang.Object.java">
+    <namespaces>java</namespaces>
+    <namespaces>lang</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="Object"/>
+  </containers:CompilationUnit>
+</xmi:XMI>

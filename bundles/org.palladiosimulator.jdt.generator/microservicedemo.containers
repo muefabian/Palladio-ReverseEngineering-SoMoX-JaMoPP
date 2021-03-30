@@ -1,0 +1,3611 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:annotations="http://www.palladiosimulator.org/javamodel/annotations" xmlns:classifiers="http://www.palladiosimulator.org/javamodel/classifiers" xmlns:containers="http://www.palladiosimulator.org/javamodel/containers" xmlns:generics="http://www.palladiosimulator.org/javamodel/generics" xmlns:imports="http://www.palladiosimulator.org/javamodel/imports" xmlns:members="http://www.palladiosimulator.org/javamodel/members" xmlns:modifiers="http://www.palladiosimulator.org/javamodel/modifiers" xmlns:parameters="http://www.palladiosimulator.org/javamodel/parameters" xmlns:references="http://www.palladiosimulator.org/javamodel/references" xmlns:types="http://www.palladiosimulator.org/javamodel/types">
+  <containers:CompilationUnit name="ZuulApplication.java">
+    <namespaces>com</namespaces>
+    <namespaces>ewolff</namespaces>
+    <namespaces>microservice</namespaces>
+    <namespaces>zuulserver</namespaces>
+    <imports xsi:type="imports:ClassifierImport" classifier="/160/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>boot</namespaces>
+      <namespaces>autoconfigure</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/25/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>cloud</namespaces>
+      <namespaces>netflix</namespaces>
+      <namespaces>zuul</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/26/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>boot</namespaces>
+      <namespaces>builder</namespaces>
+    </imports>
+    <classifiers xsi:type="classifiers:Class" name="ZuulApplication">
+      <members xsi:type="members:ClassMethod" name="main">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="args">
+          <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+          <arrayDimensionsBefore/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="modifiers:Static"/>
+      </members>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/160/@classifiers.0"/>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/25/@classifiers.0"/>
+    </classifiers>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="Customer.java">
+    <namespaces>com</namespaces>
+    <namespaces>ewolff</namespaces>
+    <namespaces>microservice</namespaces>
+    <namespaces>customer</namespaces>
+    <imports xsi:type="imports:ClassifierImport" classifier="/171/@classifiers.0">
+      <namespaces>javax</namespaces>
+      <namespaces>persistence</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/172/@classifiers.0">
+      <namespaces>javax</namespaces>
+      <namespaces>persistence</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/178/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>apache</namespaces>
+      <namespaces>commons</namespaces>
+      <namespaces>lang</namespaces>
+      <namespaces>builder</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/154/@classifiers.0">
+      <namespaces>javax</namespaces>
+      <namespaces>persistence</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/175/@classifiers.0">
+      <namespaces>javax</namespaces>
+      <namespaces>persistence</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/174/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>apache</namespaces>
+      <namespaces>commons</namespaces>
+      <namespaces>lang</namespaces>
+      <namespaces>builder</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/176/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>apache</namespaces>
+      <namespaces>commons</namespaces>
+      <namespaces>lang</namespaces>
+      <namespaces>builder</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/34/@classifiers.0">
+      <namespaces>javax</namespaces>
+      <namespaces>validation</namespaces>
+      <namespaces>constraints</namespaces>
+    </imports>
+    <classifiers xsi:type="classifiers:Annotation" name="Override"/>
+    <classifiers xsi:type="classifiers:Annotation" name="Override"/>
+    <classifiers xsi:type="classifiers:Annotation" name="Override"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="CatalogApp.java">
+    <namespaces>com</namespaces>
+    <namespaces>ewolff</namespaces>
+    <namespaces>microservice</namespaces>
+    <namespaces>catalog</namespaces>
+    <imports xsi:type="imports:ClassifierImport" classifier="/131/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>stereotype</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/108/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>cloud</namespaces>
+      <namespaces>client</namespaces>
+      <namespaces>discovery</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/183/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>boot</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/90/@classifiers.0">
+      <namespaces>javax</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/94/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>context</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/181/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>boot</namespaces>
+      <namespaces>autoconfigure</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/162/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>beans</namespaces>
+      <namespaces>factory</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <classifiers xsi:type="classifiers:Class" name="CatalogApp">
+      <members xsi:type="members:Field" name="itemRepository">
+        <typeReference xsi:type="types:ClassifierReference" target="/85/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+        <annotationsAndModifiers xsi:type="modifiers:Final"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="generateTestData">
+        <typeReference xsi:type="types:Void"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/90/@classifiers.0"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="main">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="args">
+          <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+          <arrayDimensionsBefore/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="modifiers:Static"/>
+      </members>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/131/@classifiers.0"/>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/108/@classifiers.0"/>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/94/@classifiers.0"/>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/181/@classifiers.0"/>
+    </classifiers>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="SpringRestDataConfig.java">
+    <namespaces>com</namespaces>
+    <namespaces>ewolff</namespaces>
+    <namespaces>microservice</namespaces>
+    <namespaces>order</namespaces>
+    <namespaces>logic</namespaces>
+    <imports xsi:type="imports:ClassifierImport" classifier="/138/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>context</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/140/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>data</namespaces>
+      <namespaces>rest</namespaces>
+      <namespaces>core</namespaces>
+      <namespaces>config</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/137/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>data</namespaces>
+      <namespaces>rest</namespaces>
+      <namespaces>webmvc</namespaces>
+      <namespaces>config</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/6/@classifiers.0">
+      <namespaces>com</namespaces>
+      <namespaces>ewolff</namespaces>
+      <namespaces>microservice</namespaces>
+      <namespaces>order</namespaces>
+      <namespaces>clients</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/21/@classifiers.0">
+      <namespaces>com</namespaces>
+      <namespaces>ewolff</namespaces>
+      <namespaces>microservice</namespaces>
+      <namespaces>order</namespaces>
+      <namespaces>clients</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/139/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>context</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/136/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>data</namespaces>
+      <namespaces>rest</namespaces>
+      <namespaces>webmvc</namespaces>
+      <namespaces>config</namespaces>
+    </imports>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="CatalogClient.java">
+    <namespaces>com</namespaces>
+    <namespaces>ewolff</namespaces>
+    <namespaces>microservice</namespaces>
+    <namespaces>order</namespaces>
+    <namespaces>clients</namespaces>
+    <imports xsi:type="imports:ClassifierImport" classifier="/122/@classifiers.0">
+      <namespaces>java</namespaces>
+      <namespaces>util</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/121/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>beans</namespaces>
+      <namespaces>factory</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/49/@classifiers.0">
+      <namespaces>com</namespaces>
+      <namespaces>netflix</namespaces>
+      <namespaces>hystrix</namespaces>
+      <namespaces>contrib</namespaces>
+      <namespaces>javanica</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/135/@classifiers.0">
+      <namespaces>com</namespaces>
+      <namespaces>fasterxml</namespaces>
+      <namespaces>jackson</namespaces>
+      <namespaces>databind</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/117/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>web</namespaces>
+      <namespaces>client</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/127/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>slf4j</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/126/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>hateoas</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/123/@classifiers.0">
+      <namespaces>java</namespaces>
+      <namespaces>util</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/129/@classifiers.0">
+      <namespaces>java</namespaces>
+      <namespaces>util</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/119/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>hateoas</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/132/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>http</namespaces>
+      <namespaces>converter</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/58/@classifiers.0">
+      <namespaces>com</namespaces>
+      <namespaces>netflix</namespaces>
+      <namespaces>hystrix</namespaces>
+      <namespaces>contrib</namespaces>
+      <namespaces>javanica</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/162/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>beans</namespaces>
+      <namespaces>factory</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/131/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>stereotype</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/134/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>cloud</namespaces>
+      <namespaces>client</namespaces>
+      <namespaces>loadbalancer</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/120/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>http</namespaces>
+      <namespaces>converter</namespaces>
+      <namespaces>json</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/125/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>slf4j</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/130/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>hateoas</namespaces>
+      <namespaces>mediatype</namespaces>
+      <namespaces>hal</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/128/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>cloud</namespaces>
+      <namespaces>client</namespaces>
+    </imports>
+    <classifiers xsi:type="classifiers:Class" name="ItemPagedResources">
+      <extends xsi:type="types:ClassifierReference" target="/126/@classifiers.0">
+        <typeArguments xsi:type="generics:QualifiedTypeArgument">
+          <typeReference xsi:type="types:ClassifierReference" target="/21/@classifiers.0"/>
+        </typeArguments>
+      </extends>
+    </classifiers>
+    <classifiers xsi:type="classifiers:Class" name="CatalogClient">
+      <members xsi:type="members:Field" name="loadBalancer">
+        <typeReference xsi:type="types:ClassifierReference" target="/134/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="log">
+        <typeReference xsi:type="types:ClassifierReference" target="/125/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+        <annotationsAndModifiers xsi:type="modifiers:Final"/>
+      </members>
+      <members xsi:type="members:Field" name="catalogServiceHost">
+        <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="itemsCache">
+        <typeReference xsi:type="types:ClassifierReference" target="/129/@classifiers.0">
+          <typeArguments xsi:type="generics:QualifiedTypeArgument">
+            <typeReference xsi:type="types:ClassifierReference" target="/21/@classifiers.0"/>
+          </typeArguments>
+        </typeReference>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="useRibbon">
+        <typeReference xsi:type="types:Boolean"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="restTemplate">
+        <typeReference xsi:type="types:ClassifierReference" target="/117/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="catalogServicePort">
+        <typeReference xsi:type="types:Long"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="priceCache">
+        <typeReference xsi:type="types:Double"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="itemId">
+          <typeReference xsi:type="types:Long"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getOne">
+        <typeReference xsi:type="types:ClassifierReference" target="/21/@classifiers.0"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="itemId">
+          <typeReference xsi:type="types:Long"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/49/@classifiers.0">
+          <parameter xsi:type="annotations:AnnotationParameterList"/>
+        </annotationsAndModifiers>
+      </members>
+      <members xsi:type="members:ClassMethod" name="findAll">
+        <typeReference xsi:type="types:ClassifierReference" target="/129/@classifiers.0">
+          <typeArguments xsi:type="generics:QualifiedTypeArgument">
+            <typeReference xsi:type="types:ClassifierReference" target="/21/@classifiers.0"/>
+          </typeArguments>
+        </typeReference>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/49/@classifiers.0">
+          <parameter xsi:type="annotations:AnnotationParameterList"/>
+        </annotationsAndModifiers>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getRestTemplate">
+        <typeReference xsi:type="types:ClassifierReference" target="/117/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Protected"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="catalogURL">
+        <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="price">
+        <typeReference xsi:type="types:Double"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="itemId">
+          <typeReference xsi:type="types:Long"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/49/@classifiers.0">
+          <parameter xsi:type="annotations:AnnotationParameterList"/>
+        </annotationsAndModifiers>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getOneCache">
+        <typeReference xsi:type="types:ClassifierReference" target="/21/@classifiers.0"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="itemId">
+          <typeReference xsi:type="types:Long"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setLoadBalancer">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="loadBalancer">
+          <typeReference xsi:type="types:ClassifierReference" target="/134/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/162/@classifiers.0">
+          <parameter xsi:type="annotations:AnnotationParameterList">
+            <settings>
+              <value xsi:type="references:StringReference" value="false"/>
+            </settings>
+          </parameter>
+        </annotationsAndModifiers>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getItemsCache">
+        <typeReference xsi:type="types:ClassifierReference" target="/129/@classifiers.0">
+          <typeArguments xsi:type="generics:QualifiedTypeArgument">
+            <typeReference xsi:type="types:ClassifierReference" target="/21/@classifiers.0"/>
+          </typeArguments>
+        </typeReference>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/4/@classifiers.2">
+          <parameter xsi:type="annotations:SingleAnnotationParameter">
+            <value xsi:type="references:StringReference" value="&quot;unused&quot;"/>
+          </parameter>
+        </annotationsAndModifiers>
+      </members>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/131/@classifiers.0"/>
+    </classifiers>
+    <classifiers xsi:type="classifiers:Annotation" name="SuppressWarnings"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="SpringRestDataConfig.java">
+    <namespaces>com</namespaces>
+    <namespaces>ewolff</namespaces>
+    <namespaces>microservice</namespaces>
+    <namespaces>catalog</namespaces>
+    <imports xsi:type="imports:ClassifierImport" classifier="/140/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>data</namespaces>
+      <namespaces>rest</namespaces>
+      <namespaces>core</namespaces>
+      <namespaces>config</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/139/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>context</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/138/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>context</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/137/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>data</namespaces>
+      <namespaces>rest</namespaces>
+      <namespaces>webmvc</namespaces>
+      <namespaces>config</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/136/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>data</namespaces>
+      <namespaces>rest</namespaces>
+      <namespaces>webmvc</namespaces>
+      <namespaces>config</namespaces>
+    </imports>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="Customer.java">
+    <namespaces>com</namespaces>
+    <namespaces>ewolff</namespaces>
+    <namespaces>microservice</namespaces>
+    <namespaces>order</namespaces>
+    <namespaces>clients</namespaces>
+    <imports xsi:type="imports:ClassifierImport" classifier="/174/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>apache</namespaces>
+      <namespaces>commons</namespaces>
+      <namespaces>lang</namespaces>
+      <namespaces>builder</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/176/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>apache</namespaces>
+      <namespaces>commons</namespaces>
+      <namespaces>lang</namespaces>
+      <namespaces>builder</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/178/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>apache</namespaces>
+      <namespaces>commons</namespaces>
+      <namespaces>lang</namespaces>
+      <namespaces>builder</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/165/@classifiers.0">
+      <namespaces>com</namespaces>
+      <namespaces>fasterxml</namespaces>
+      <namespaces>jackson</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/167/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>hateoas</namespaces>
+    </imports>
+    <classifiers xsi:type="classifiers:Class" name="Customer">
+      <members xsi:type="members:Field" name="id">
+        <typeReference xsi:type="types:ClassifierReference" target="/185/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="firstname">
+        <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="email">
+        <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="name">
+        <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="street">
+        <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="city">
+        <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="toString">
+        <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/1/@classifiers.2"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="equals">
+        <typeReference xsi:type="types:Boolean"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="obj">
+          <typeReference xsi:type="types:ClassifierReference" target="/186/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/1/@classifiers.1"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setCity">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="city">
+          <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setEmail">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="email">
+          <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setName">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="name">
+          <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getFirstname">
+        <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getCity">
+        <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getName">
+        <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setStreet">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="street">
+          <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getId">
+        <typeReference xsi:type="types:ClassifierReference" target="/185/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setId">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="id">
+          <typeReference xsi:type="types:ClassifierReference" target="/185/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="hashCode">
+        <typeReference xsi:type="types:Int"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/1/@classifiers.0"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getStreet">
+        <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setFirstname">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="firstname">
+          <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getEmail">
+        <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:Field" name="name">
+        <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="customerId">
+        <typeReference xsi:type="types:Long"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="street">
+        <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="city">
+        <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="firstname">
+        <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="email">
+        <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="toString">
+        <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/6/@classifiers.2"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setStreet">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="street">
+          <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getCity">
+        <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getName">
+        <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="hashCode">
+        <typeReference xsi:type="types:Int"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/6/@classifiers.3"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setFirstname">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="firstname">
+          <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="equals">
+        <typeReference xsi:type="types:Boolean"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="obj">
+          <typeReference xsi:type="types:ClassifierReference" target="/186/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/6/@classifiers.1"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setEmail">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="email">
+          <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getEmail">
+        <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setCustomerId">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="id">
+          <typeReference xsi:type="types:Long"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getStreet">
+        <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setName">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="name">
+          <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getCustomerId">
+        <typeReference xsi:type="types:Long"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setCity">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="city">
+          <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getFirstname">
+        <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/171/@classifiers.0"/>
+      <extends xsi:type="types:ClassifierReference" target="/167/@classifiers.0"/>
+    </classifiers>
+    <classifiers xsi:type="classifiers:Annotation" name="Override"/>
+    <classifiers xsi:type="classifiers:Annotation" name="Override"/>
+    <classifiers xsi:type="classifiers:Annotation" name="Override"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="ItemRepository.java">
+    <namespaces>com</namespaces>
+    <namespaces>ewolff</namespaces>
+    <namespaces>microservice</namespaces>
+    <namespaces>catalog</namespaces>
+    <imports xsi:type="imports:ClassifierImport" classifier="/169/@classifiers.0">
+      <namespaces>java</namespaces>
+      <namespaces>util</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/141/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>data</namespaces>
+      <namespaces>repository</namespaces>
+      <namespaces>query</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/143/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>data</namespaces>
+      <namespaces>repository</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/144/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>data</namespaces>
+      <namespaces>rest</namespaces>
+      <namespaces>core</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="OrderRepository.java">
+    <namespaces>com</namespaces>
+    <namespaces>ewolff</namespaces>
+    <namespaces>microservice</namespaces>
+    <namespaces>order</namespaces>
+    <namespaces>logic</namespaces>
+    <imports xsi:type="imports:ClassifierImport" classifier="/144/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>data</namespaces>
+      <namespaces>rest</namespaces>
+      <namespaces>core</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/143/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>data</namespaces>
+      <namespaces>repository</namespaces>
+    </imports>
+    <classifiers xsi:type="classifiers:Interface" name="OrderRepository">
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/144/@classifiers.0">
+        <parameter xsi:type="annotations:AnnotationParameterList">
+          <settings>
+            <value xsi:type="references:StringReference" value="&quot;order&quot;"/>
+          </settings>
+          <settings>
+            <value xsi:type="references:StringReference" value="&quot;order&quot;"/>
+          </settings>
+        </parameter>
+      </annotationsAndModifiers>
+      <extends xsi:type="types:ClassifierReference" target="/143/@classifiers.0">
+        <typeArguments xsi:type="generics:QualifiedTypeArgument">
+          <typeReference xsi:type="types:ClassifierReference" target="/22/@classifiers.0"/>
+        </typeArguments>
+        <typeArguments xsi:type="generics:QualifiedTypeArgument">
+          <typeReference xsi:type="types:ClassifierReference" target="/185/@classifiers.0"/>
+        </typeArguments>
+      </extends>
+    </classifiers>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="CatalogController.java">
+    <namespaces>com</namespaces>
+    <namespaces>ewolff</namespaces>
+    <namespaces>microservice</namespaces>
+    <namespaces>catalog</namespaces>
+    <namespaces>web</namespaces>
+    <imports xsi:type="imports:ClassifierImport" classifier="/21/@classifiers.0">
+      <namespaces>com</namespaces>
+      <namespaces>ewolff</namespaces>
+      <namespaces>microservice</namespaces>
+      <namespaces>catalog</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/162/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>beans</namespaces>
+      <namespaces>factory</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/116/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>web</namespaces>
+      <namespaces>servlet</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/113/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>web</namespaces>
+      <namespaces>bind</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/85/@classifiers.0">
+      <namespaces>com</namespaces>
+      <namespaces>ewolff</namespaces>
+      <namespaces>microservice</namespaces>
+      <namespaces>catalog</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/86/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>web</namespaces>
+      <namespaces>bind</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/112/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>stereotype</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/109/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>http</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/110/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>web</namespaces>
+      <namespaces>bind</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <classifiers xsi:type="classifiers:Class" name="CatalogController">
+      <members xsi:type="members:Field" name="itemRepository">
+        <typeReference xsi:type="types:ClassifierReference" target="/85/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+        <annotationsAndModifiers xsi:type="modifiers:Final"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="Item">
+        <typeReference xsi:type="types:ClassifierReference" target="/116/@classifiers.0"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="id">
+          <typeReference xsi:type="types:Long"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/113/@classifiers.0">
+          <parameter xsi:type="annotations:AnnotationParameterList">
+            <settings>
+              <value xsi:type="references:StringReference" value="&quot;/{id}.html&quot;"/>
+            </settings>
+            <settings>
+              <value xsi:type="references:StringReference" value="RequestMethod.GET"/>
+            </settings>
+            <settings>
+              <value xsi:type="references:StringReference" value="MediaType.TEXT_HTML_VALUE"/>
+            </settings>
+          </parameter>
+        </annotationsAndModifiers>
+      </members>
+      <members xsi:type="members:ClassMethod" name="post">
+        <typeReference xsi:type="types:ClassifierReference" target="/116/@classifiers.0"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="Item">
+          <typeReference xsi:type="types:ClassifierReference" target="/21/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/113/@classifiers.0">
+          <parameter xsi:type="annotations:AnnotationParameterList">
+            <settings>
+              <value xsi:type="references:StringReference" value="&quot;/form.html&quot;"/>
+            </settings>
+            <settings>
+              <value xsi:type="references:StringReference" value="RequestMethod.POST"/>
+            </settings>
+          </parameter>
+        </annotationsAndModifiers>
+      </members>
+      <members xsi:type="members:ClassMethod" name="searchForm">
+        <typeReference xsi:type="types:ClassifierReference" target="/116/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/113/@classifiers.0">
+          <parameter xsi:type="annotations:AnnotationParameterList">
+            <settings>
+              <value xsi:type="references:StringReference" value="&quot;/searchForm.html&quot;"/>
+            </settings>
+            <settings>
+              <value xsi:type="references:StringReference" value="MediaType.TEXT_HTML_VALUE"/>
+            </settings>
+            <settings>
+              <value xsi:type="references:StringReference" value="RequestMethod.GET"/>
+            </settings>
+          </parameter>
+        </annotationsAndModifiers>
+      </members>
+      <members xsi:type="members:ClassMethod" name="ItemList">
+        <typeReference xsi:type="types:ClassifierReference" target="/116/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/113/@classifiers.0">
+          <parameter xsi:type="annotations:AnnotationParameterList">
+            <settings>
+              <value xsi:type="references:StringReference" value="&quot;/list.html&quot;"/>
+            </settings>
+            <settings>
+              <value xsi:type="references:StringReference" value="RequestMethod.GET"/>
+            </settings>
+          </parameter>
+        </annotationsAndModifiers>
+      </members>
+      <members xsi:type="members:ClassMethod" name="add">
+        <typeReference xsi:type="types:ClassifierReference" target="/116/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/113/@classifiers.0">
+          <parameter xsi:type="annotations:AnnotationParameterList">
+            <settings>
+              <value xsi:type="references:StringReference" value="&quot;/form.html&quot;"/>
+            </settings>
+            <settings>
+              <value xsi:type="references:StringReference" value="RequestMethod.GET"/>
+            </settings>
+          </parameter>
+        </annotationsAndModifiers>
+      </members>
+      <members xsi:type="members:ClassMethod" name="put">
+        <typeReference xsi:type="types:ClassifierReference" target="/116/@classifiers.0"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="id">
+          <typeReference xsi:type="types:Long"/>
+        </parameters>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="item">
+          <typeReference xsi:type="types:ClassifierReference" target="/21/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/113/@classifiers.0">
+          <parameter xsi:type="annotations:AnnotationParameterList">
+            <settings>
+              <value xsi:type="references:StringReference" value="&quot;/{id}.html&quot;"/>
+            </settings>
+            <settings>
+              <value xsi:type="references:StringReference" value="RequestMethod.PUT"/>
+            </settings>
+          </parameter>
+        </annotationsAndModifiers>
+      </members>
+      <members xsi:type="members:ClassMethod" name="delete">
+        <typeReference xsi:type="types:ClassifierReference" target="/116/@classifiers.0"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="id">
+          <typeReference xsi:type="types:Long"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/113/@classifiers.0">
+          <parameter xsi:type="annotations:AnnotationParameterList">
+            <settings>
+              <value xsi:type="references:StringReference" value="&quot;/{id}.html&quot;"/>
+            </settings>
+            <settings>
+              <value xsi:type="references:StringReference" value="RequestMethod.DELETE"/>
+            </settings>
+          </parameter>
+        </annotationsAndModifiers>
+      </members>
+      <members xsi:type="members:ClassMethod" name="search">
+        <typeReference xsi:type="types:ClassifierReference" target="/116/@classifiers.0"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="query">
+          <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/113/@classifiers.0">
+          <parameter xsi:type="annotations:AnnotationParameterList">
+            <settings>
+              <value xsi:type="references:StringReference" value="&quot;/searchByName.html&quot;"/>
+            </settings>
+            <settings>
+              <value xsi:type="references:StringReference" value="MediaType.TEXT_HTML_VALUE"/>
+            </settings>
+            <settings>
+              <value xsi:type="references:StringReference" value="RequestMethod.GET"/>
+            </settings>
+          </parameter>
+        </annotationsAndModifiers>
+      </members>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/112/@classifiers.0"/>
+    </classifiers>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="CustomerApp.java">
+    <namespaces>com</namespaces>
+    <namespaces>ewolff</namespaces>
+    <namespaces>microservice</namespaces>
+    <namespaces>customer</namespaces>
+    <imports xsi:type="imports:ClassifierImport" classifier="/90/@classifiers.0">
+      <namespaces>javax</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/162/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>beans</namespaces>
+      <namespaces>factory</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/183/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>boot</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/181/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>boot</namespaces>
+      <namespaces>autoconfigure</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/94/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>context</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/108/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>cloud</namespaces>
+      <namespaces>client</namespaces>
+      <namespaces>discovery</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/131/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>stereotype</namespaces>
+    </imports>
+    <classifiers xsi:type="classifiers:Class" name="CustomerApp">
+      <members xsi:type="members:Field" name="customerRepository">
+        <typeReference xsi:type="types:ClassifierReference" target="/111/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+        <annotationsAndModifiers xsi:type="modifiers:Final"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="generateTestData">
+        <typeReference xsi:type="types:Void"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/90/@classifiers.0"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="main">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="args">
+          <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+          <arrayDimensionsBefore/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="modifiers:Static"/>
+      </members>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/181/@classifiers.0"/>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/94/@classifiers.0"/>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/131/@classifiers.0"/>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/108/@classifiers.0"/>
+    </classifiers>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="OrderController.java">
+    <namespaces>com</namespaces>
+    <namespaces>ewolff</namespaces>
+    <namespaces>microservice</namespaces>
+    <namespaces>order</namespaces>
+    <namespaces>logic</namespaces>
+    <imports xsi:type="imports:ClassifierImport" classifier="/21/@classifiers.0">
+      <namespaces>com</namespaces>
+      <namespaces>ewolff</namespaces>
+      <namespaces>microservice</namespaces>
+      <namespaces>order</namespaces>
+      <namespaces>clients</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/97/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>web</namespaces>
+      <namespaces>bind</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/113/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>web</namespaces>
+      <namespaces>bind</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/6/@classifiers.0">
+      <namespaces>com</namespaces>
+      <namespaces>ewolff</namespaces>
+      <namespaces>microservice</namespaces>
+      <namespaces>order</namespaces>
+      <namespaces>clients</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/129/@classifiers.0">
+      <namespaces>java</namespaces>
+      <namespaces>util</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/162/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>beans</namespaces>
+      <namespaces>factory</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/112/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>stereotype</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/110/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>web</namespaces>
+      <namespaces>bind</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/116/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>web</namespaces>
+      <namespaces>servlet</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/4/@classifiers.1">
+      <namespaces>com</namespaces>
+      <namespaces>ewolff</namespaces>
+      <namespaces>microservice</namespaces>
+      <namespaces>order</namespaces>
+      <namespaces>clients</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/14/@classifiers.0">
+      <namespaces>com</namespaces>
+      <namespaces>ewolff</namespaces>
+      <namespaces>microservice</namespaces>
+      <namespaces>order</namespaces>
+      <namespaces>clients</namespaces>
+    </imports>
+    <classifiers xsi:type="classifiers:Class" name="OrderController">
+      <members xsi:type="members:Field" name="catalogClient">
+        <typeReference xsi:type="types:ClassifierReference" target="/4/@classifiers.1"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="customerClient">
+        <typeReference xsi:type="types:ClassifierReference" target="/14/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="orderRepository">
+        <typeReference xsi:type="types:ClassifierReference" target="/8/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="orderService">
+        <typeReference xsi:type="types:ClassifierReference" target="/20/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="get">
+        <typeReference xsi:type="types:ClassifierReference" target="/116/@classifiers.0"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="id">
+          <typeReference xsi:type="types:Long"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/113/@classifiers.0">
+          <parameter xsi:type="annotations:AnnotationParameterList">
+            <settings>
+              <value xsi:type="references:StringReference" value="&quot;/{id}&quot;"/>
+            </settings>
+            <settings>
+              <value xsi:type="references:StringReference" value="RequestMethod.GET"/>
+            </settings>
+          </parameter>
+        </annotationsAndModifiers>
+      </members>
+      <members xsi:type="members:ClassMethod" name="post">
+        <typeReference xsi:type="types:ClassifierReference" target="/116/@classifiers.0"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="id">
+          <typeReference xsi:type="types:Long"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/113/@classifiers.0">
+          <parameter xsi:type="annotations:AnnotationParameterList">
+            <settings>
+              <value xsi:type="references:StringReference" value="&quot;/{id}&quot;"/>
+            </settings>
+            <settings>
+              <value xsi:type="references:StringReference" value="RequestMethod.DELETE"/>
+            </settings>
+          </parameter>
+        </annotationsAndModifiers>
+      </members>
+      <members xsi:type="members:ClassMethod" name="addLine">
+        <typeReference xsi:type="types:ClassifierReference" target="/116/@classifiers.0"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="order">
+          <typeReference xsi:type="types:ClassifierReference" target="/22/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/113/@classifiers.0">
+          <parameter xsi:type="annotations:AnnotationParameterList">
+            <settings>
+              <value xsi:type="references:StringReference" value="&quot;/line&quot;"/>
+            </settings>
+            <settings>
+              <value xsi:type="references:StringReference" value="RequestMethod.POST"/>
+            </settings>
+          </parameter>
+        </annotationsAndModifiers>
+      </members>
+      <members xsi:type="members:ClassMethod" name="post">
+        <typeReference xsi:type="types:ClassifierReference" target="/116/@classifiers.0"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="order">
+          <typeReference xsi:type="types:ClassifierReference" target="/22/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/113/@classifiers.0">
+          <parameter xsi:type="annotations:AnnotationParameterList">
+            <settings>
+              <value xsi:type="references:StringReference" value="&quot;/&quot;"/>
+            </settings>
+            <settings>
+              <value xsi:type="references:StringReference" value="RequestMethod.POST"/>
+            </settings>
+          </parameter>
+        </annotationsAndModifiers>
+      </members>
+      <members xsi:type="members:ClassMethod" name="form">
+        <typeReference xsi:type="types:ClassifierReference" target="/116/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/113/@classifiers.0">
+          <parameter xsi:type="annotations:AnnotationParameterList">
+            <settings>
+              <value xsi:type="references:StringReference" value="&quot;/form.html&quot;"/>
+            </settings>
+            <settings>
+              <value xsi:type="references:StringReference" value="RequestMethod.GET"/>
+            </settings>
+          </parameter>
+        </annotationsAndModifiers>
+      </members>
+      <members xsi:type="members:ClassMethod" name="orderList">
+        <typeReference xsi:type="types:ClassifierReference" target="/116/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/113/@classifiers.0">
+          <parameter xsi:type="annotations:AnnotationParameterList">
+            <settings>
+              <value xsi:type="references:StringReference" value="&quot;/&quot;"/>
+            </settings>
+            <settings>
+              <value xsi:type="references:StringReference" value="RequestMethod.GET"/>
+            </settings>
+          </parameter>
+        </annotationsAndModifiers>
+      </members>
+      <members xsi:type="members:ClassMethod" name="items">
+        <typeReference xsi:type="types:ClassifierReference" target="/129/@classifiers.0">
+          <typeArguments xsi:type="generics:QualifiedTypeArgument">
+            <typeReference xsi:type="types:ClassifierReference" target="/21/@classifiers.0"/>
+          </typeArguments>
+        </typeReference>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/97/@classifiers.0">
+          <parameter xsi:type="annotations:SingleAnnotationParameter">
+            <value xsi:type="references:StringReference" value="&quot;items&quot;"/>
+          </parameter>
+        </annotationsAndModifiers>
+      </members>
+      <members xsi:type="members:ClassMethod" name="customers">
+        <typeReference xsi:type="types:ClassifierReference" target="/129/@classifiers.0">
+          <typeArguments xsi:type="generics:QualifiedTypeArgument">
+            <typeReference xsi:type="types:ClassifierReference" target="/6/@classifiers.0"/>
+          </typeArguments>
+        </typeReference>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/97/@classifiers.0">
+          <parameter xsi:type="annotations:SingleAnnotationParameter">
+            <value xsi:type="references:StringReference" value="&quot;customers&quot;"/>
+          </parameter>
+        </annotationsAndModifiers>
+      </members>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/112/@classifiers.0"/>
+    </classifiers>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="OrderApp.java">
+    <namespaces>com</namespaces>
+    <namespaces>ewolff</namespaces>
+    <namespaces>microservice</namespaces>
+    <namespaces>order</namespaces>
+    <imports xsi:type="imports:ClassifierImport" classifier="/160/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>boot</namespaces>
+      <namespaces>autoconfigure</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/183/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>boot</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/106/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>cloud</namespaces>
+      <namespaces>client</namespaces>
+      <namespaces>circuitbreaker</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/107/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>cloud</namespaces>
+      <namespaces>netflix</namespaces>
+      <namespaces>ribbon</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/108/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>cloud</namespaces>
+      <namespaces>client</namespaces>
+      <namespaces>discovery</namespaces>
+    </imports>
+    <classifiers xsi:type="classifiers:Class" name="OrderApp">
+      <members xsi:type="members:ClassMethod" name="main">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="args">
+          <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+          <arrayDimensionsBefore/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="modifiers:Static"/>
+      </members>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/106/@classifiers.0"/>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/107/@classifiers.0">
+        <parameter xsi:type="annotations:SingleAnnotationParameter">
+          <value xsi:type="references:StringReference" value="&quot;order&quot;"/>
+        </parameter>
+      </annotationsAndModifiers>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/108/@classifiers.0"/>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/160/@classifiers.0"/>
+    </classifiers>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="CustomerController.java">
+    <namespaces>com</namespaces>
+    <namespaces>ewolff</namespaces>
+    <namespaces>microservice</namespaces>
+    <namespaces>customer</namespaces>
+    <namespaces>web</namespaces>
+    <imports xsi:type="imports:ClassifierImport" classifier="/6/@classifiers.0">
+      <namespaces>com</namespaces>
+      <namespaces>ewolff</namespaces>
+      <namespaces>microservice</namespaces>
+      <namespaces>customer</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/109/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>http</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/110/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>web</namespaces>
+      <namespaces>bind</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/111/@classifiers.0">
+      <namespaces>com</namespaces>
+      <namespaces>ewolff</namespaces>
+      <namespaces>microservice</namespaces>
+      <namespaces>customer</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/112/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>stereotype</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/113/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>web</namespaces>
+      <namespaces>bind</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/162/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>beans</namespaces>
+      <namespaces>factory</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/115/@classifiers.0">
+      <namespaces>javax</namespaces>
+      <namespaces>servlet</namespaces>
+      <namespaces>http</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/116/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>web</namespaces>
+      <namespaces>servlet</namespaces>
+    </imports>
+    <classifiers xsi:type="classifiers:Class" name="CustomerController">
+      <members xsi:type="members:Field" name="customerRepository">
+        <typeReference xsi:type="types:ClassifierReference" target="/111/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="post">
+        <typeReference xsi:type="types:ClassifierReference" target="/116/@classifiers.0"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="customer">
+          <typeReference xsi:type="types:ClassifierReference" target="/6/@classifiers.0"/>
+        </parameters>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="httpRequest">
+          <typeReference xsi:type="types:ClassifierReference" target="/115/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/113/@classifiers.0">
+          <parameter xsi:type="annotations:AnnotationParameterList">
+            <settings>
+              <value xsi:type="references:StringReference" value="&quot;/form.html&quot;"/>
+            </settings>
+            <settings>
+              <value xsi:type="references:StringReference" value="RequestMethod.POST"/>
+            </settings>
+          </parameter>
+        </annotationsAndModifiers>
+      </members>
+      <members xsi:type="members:ClassMethod" name="customer">
+        <typeReference xsi:type="types:ClassifierReference" target="/116/@classifiers.0"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="id">
+          <typeReference xsi:type="types:Long"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/113/@classifiers.0">
+          <parameter xsi:type="annotations:AnnotationParameterList">
+            <settings>
+              <value xsi:type="references:StringReference" value="&quot;/{id}.html&quot;"/>
+            </settings>
+            <settings>
+              <value xsi:type="references:StringReference" value="RequestMethod.GET"/>
+            </settings>
+            <settings>
+              <value xsi:type="references:StringReference" value="MediaType.TEXT_HTML_VALUE"/>
+            </settings>
+          </parameter>
+        </annotationsAndModifiers>
+      </members>
+      <members xsi:type="members:ClassMethod" name="put">
+        <typeReference xsi:type="types:ClassifierReference" target="/116/@classifiers.0"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="id">
+          <typeReference xsi:type="types:Long"/>
+        </parameters>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="customer">
+          <typeReference xsi:type="types:ClassifierReference" target="/6/@classifiers.0"/>
+        </parameters>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="httpRequest">
+          <typeReference xsi:type="types:ClassifierReference" target="/115/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/113/@classifiers.0">
+          <parameter xsi:type="annotations:AnnotationParameterList">
+            <settings>
+              <value xsi:type="references:StringReference" value="&quot;/{id}.html&quot;"/>
+            </settings>
+            <settings>
+              <value xsi:type="references:StringReference" value="RequestMethod.PUT"/>
+            </settings>
+          </parameter>
+        </annotationsAndModifiers>
+      </members>
+      <members xsi:type="members:ClassMethod" name="customerList">
+        <typeReference xsi:type="types:ClassifierReference" target="/116/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/113/@classifiers.0">
+          <parameter xsi:type="annotations:AnnotationParameterList">
+            <settings>
+              <value xsi:type="references:StringReference" value="&quot;/list.html&quot;"/>
+            </settings>
+            <settings>
+              <value xsi:type="references:StringReference" value="RequestMethod.GET"/>
+            </settings>
+          </parameter>
+        </annotationsAndModifiers>
+      </members>
+      <members xsi:type="members:ClassMethod" name="add">
+        <typeReference xsi:type="types:ClassifierReference" target="/116/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/113/@classifiers.0">
+          <parameter xsi:type="annotations:AnnotationParameterList">
+            <settings>
+              <value xsi:type="references:StringReference" value="&quot;/form.html&quot;"/>
+            </settings>
+            <settings>
+              <value xsi:type="references:StringReference" value="RequestMethod.GET"/>
+            </settings>
+          </parameter>
+        </annotationsAndModifiers>
+      </members>
+      <members xsi:type="members:ClassMethod" name="delete">
+        <typeReference xsi:type="types:ClassifierReference" target="/116/@classifiers.0"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="id">
+          <typeReference xsi:type="types:Long"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/113/@classifiers.0">
+          <parameter xsi:type="annotations:AnnotationParameterList">
+            <settings>
+              <value xsi:type="references:StringReference" value="&quot;/{id}.html&quot;"/>
+            </settings>
+            <settings>
+              <value xsi:type="references:StringReference" value="RequestMethod.DELETE"/>
+            </settings>
+          </parameter>
+        </annotationsAndModifiers>
+      </members>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/112/@classifiers.0"/>
+    </classifiers>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="CustomerClient.java">
+    <namespaces>com</namespaces>
+    <namespaces>ewolff</namespaces>
+    <namespaces>microservice</namespaces>
+    <namespaces>order</namespaces>
+    <namespaces>clients</namespaces>
+    <imports xsi:type="imports:ClassifierImport" classifier="/117/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>web</namespaces>
+      <namespaces>client</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/118/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>http</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/119/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>hateoas</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/120/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>http</namespaces>
+      <namespaces>converter</namespaces>
+      <namespaces>json</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/121/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>beans</namespaces>
+      <namespaces>factory</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/122/@classifiers.0">
+      <namespaces>java</namespaces>
+      <namespaces>util</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/123/@classifiers.0">
+      <namespaces>java</namespaces>
+      <namespaces>util</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/162/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>beans</namespaces>
+      <namespaces>factory</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/125/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>slf4j</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/126/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>hateoas</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/127/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>slf4j</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/128/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>cloud</namespaces>
+      <namespaces>client</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/129/@classifiers.0">
+      <namespaces>java</namespaces>
+      <namespaces>util</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/130/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>hateoas</namespaces>
+      <namespaces>mediatype</namespaces>
+      <namespaces>hal</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/131/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>stereotype</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/132/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>http</namespaces>
+      <namespaces>converter</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/133/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>web</namespaces>
+      <namespaces>client</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/134/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>cloud</namespaces>
+      <namespaces>client</namespaces>
+      <namespaces>loadbalancer</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/135/@classifiers.0">
+      <namespaces>com</namespaces>
+      <namespaces>fasterxml</namespaces>
+      <namespaces>jackson</namespaces>
+      <namespaces>databind</namespaces>
+    </imports>
+    <classifiers xsi:type="classifiers:Class" name="CustomerClient">
+      <members xsi:type="members:Field" name="customerServiceHost">
+        <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="log">
+        <typeReference xsi:type="types:ClassifierReference" target="/125/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+        <annotationsAndModifiers xsi:type="modifiers:Final"/>
+      </members>
+      <members xsi:type="members:Field" name="restTemplate">
+        <typeReference xsi:type="types:ClassifierReference" target="/117/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="useRibbon">
+        <typeReference xsi:type="types:Boolean"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="customerServicePort">
+        <typeReference xsi:type="types:Long"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="loadBalancer">
+        <typeReference xsi:type="types:ClassifierReference" target="/134/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="customerURL">
+        <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getOne">
+        <typeReference xsi:type="types:ClassifierReference" target="/6/@classifiers.0"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="customerId">
+          <typeReference xsi:type="types:Long"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="isValidCustomerId">
+        <typeReference xsi:type="types:Boolean"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="customerId">
+          <typeReference xsi:type="types:Long"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setLoadBalancer">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="loadBalancer">
+          <typeReference xsi:type="types:ClassifierReference" target="/134/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/162/@classifiers.0">
+          <parameter xsi:type="annotations:AnnotationParameterList">
+            <settings>
+              <value xsi:type="references:StringReference" value="false"/>
+            </settings>
+          </parameter>
+        </annotationsAndModifiers>
+      </members>
+      <members xsi:type="members:ClassMethod" name="findAll">
+        <typeReference xsi:type="types:ClassifierReference" target="/129/@classifiers.0">
+          <typeArguments xsi:type="generics:QualifiedTypeArgument">
+            <typeReference xsi:type="types:ClassifierReference" target="/6/@classifiers.0"/>
+          </typeArguments>
+        </typeReference>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getRestTemplate">
+        <typeReference xsi:type="types:ClassifierReference" target="/117/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Protected"/>
+      </members>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/131/@classifiers.0"/>
+    </classifiers>
+    <classifiers xsi:type="classifiers:Class" name="CustomerPagedResources">
+      <extends xsi:type="types:ClassifierReference" target="/126/@classifiers.0">
+        <typeArguments xsi:type="generics:QualifiedTypeArgument">
+          <typeReference xsi:type="types:ClassifierReference" target="/6/@classifiers.0"/>
+        </typeArguments>
+      </extends>
+    </classifiers>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="SpringRestDataConfig.java">
+    <namespaces>com</namespaces>
+    <namespaces>ewolff</namespaces>
+    <namespaces>microservice</namespaces>
+    <namespaces>customer</namespaces>
+    <imports xsi:type="imports:ClassifierImport" classifier="/136/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>data</namespaces>
+      <namespaces>rest</namespaces>
+      <namespaces>webmvc</namespaces>
+      <namespaces>config</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/137/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>data</namespaces>
+      <namespaces>rest</namespaces>
+      <namespaces>webmvc</namespaces>
+      <namespaces>config</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/138/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>context</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/139/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>context</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/140/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>data</namespaces>
+      <namespaces>rest</namespaces>
+      <namespaces>core</namespaces>
+      <namespaces>config</namespaces>
+    </imports>
+    <classifiers xsi:type="classifiers:Class" name="SpringRestDataConfig">
+      <members xsi:type="members:ClassMethod" name="repositoryRestConfigurer">
+        <typeReference xsi:type="types:ClassifierReference" target="/137/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/138/@classifiers.0"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="repositoryRestConfigurer">
+        <typeReference xsi:type="types:ClassifierReference" target="/137/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/138/@classifiers.0"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="repositoryRestConfigurer">
+        <typeReference xsi:type="types:ClassifierReference" target="/137/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/138/@classifiers.0"/>
+      </members>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/139/@classifiers.0"/>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/139/@classifiers.0"/>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/139/@classifiers.0"/>
+      <extends xsi:type="types:ClassifierReference" target="/136/@classifiers.0"/>
+    </classifiers>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="CustomerRepository.java">
+    <namespaces>com</namespaces>
+    <namespaces>ewolff</namespaces>
+    <namespaces>microservice</namespaces>
+    <namespaces>customer</namespaces>
+    <imports xsi:type="imports:ClassifierImport" classifier="/141/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>data</namespaces>
+      <namespaces>repository</namespaces>
+      <namespaces>query</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/169/@classifiers.0">
+      <namespaces>java</namespaces>
+      <namespaces>util</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/143/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>data</namespaces>
+      <namespaces>repository</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/144/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>data</namespaces>
+      <namespaces>rest</namespaces>
+      <namespaces>core</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="OrderLine.java">
+    <namespaces>com</namespaces>
+    <namespaces>ewolff</namespaces>
+    <namespaces>microservice</namespaces>
+    <namespaces>order</namespaces>
+    <namespaces>logic</namespaces>
+    <imports xsi:type="imports:ClassifierImport" classifier="/172/@classifiers.0">
+      <namespaces>javax</namespaces>
+      <namespaces>persistence</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/175/@classifiers.0">
+      <namespaces>javax</namespaces>
+      <namespaces>persistence</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/154/@classifiers.0">
+      <namespaces>javax</namespaces>
+      <namespaces>persistence</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/174/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>apache</namespaces>
+      <namespaces>commons</namespaces>
+      <namespaces>lang</namespaces>
+      <namespaces>builder</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/178/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>apache</namespaces>
+      <namespaces>commons</namespaces>
+      <namespaces>lang</namespaces>
+      <namespaces>builder</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/171/@classifiers.0">
+      <namespaces>javax</namespaces>
+      <namespaces>persistence</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/176/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>apache</namespaces>
+      <namespaces>commons</namespaces>
+      <namespaces>lang</namespaces>
+      <namespaces>builder</namespaces>
+    </imports>
+    <classifiers xsi:type="classifiers:Class" name="OrderLine">
+      <members xsi:type="members:Field" name="count">
+        <typeReference xsi:type="types:Int"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="itemId">
+        <typeReference xsi:type="types:Long"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="id">
+        <typeReference xsi:type="types:Long"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setItemId">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="item">
+          <typeReference xsi:type="types:Long"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="equals">
+        <typeReference xsi:type="types:Boolean"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="obj">
+          <typeReference xsi:type="types:ClassifierReference" target="/186/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/17/@classifiers.2"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="hashCode">
+        <typeReference xsi:type="types:Int"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/17/@classifiers.3"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setCount">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="count">
+          <typeReference xsi:type="types:Int"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="toString">
+        <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/17/@classifiers.1"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getCount">
+        <typeReference xsi:type="types:Int"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getItemId">
+        <typeReference xsi:type="types:Long"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/171/@classifiers.0"/>
+    </classifiers>
+    <classifiers xsi:type="classifiers:Annotation" name="Override"/>
+    <classifiers xsi:type="classifiers:Annotation" name="Override"/>
+    <classifiers xsi:type="classifiers:Annotation" name="Override"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="Item.java">
+    <namespaces>com</namespaces>
+    <namespaces>ewolff</namespaces>
+    <namespaces>microservice</namespaces>
+    <namespaces>catalog</namespaces>
+    <imports xsi:type="imports:ClassifierImport" classifier="/172/@classifiers.0">
+      <namespaces>javax</namespaces>
+      <namespaces>persistence</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/178/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>apache</namespaces>
+      <namespaces>commons</namespaces>
+      <namespaces>lang</namespaces>
+      <namespaces>builder</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/154/@classifiers.0">
+      <namespaces>javax</namespaces>
+      <namespaces>persistence</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/176/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>apache</namespaces>
+      <namespaces>commons</namespaces>
+      <namespaces>lang</namespaces>
+      <namespaces>builder</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/171/@classifiers.0">
+      <namespaces>javax</namespaces>
+      <namespaces>persistence</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/175/@classifiers.0">
+      <namespaces>javax</namespaces>
+      <namespaces>persistence</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/174/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>apache</namespaces>
+      <namespaces>commons</namespaces>
+      <namespaces>lang</namespaces>
+      <namespaces>builder</namespaces>
+    </imports>
+    <classifiers xsi:type="classifiers:Annotation" name="Override"/>
+    <classifiers xsi:type="classifiers:Annotation" name="Override"/>
+    <classifiers xsi:type="classifiers:Annotation" name="Override"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="EurekaApplication.java">
+    <namespaces>com</namespaces>
+    <namespaces>ewolff</namespaces>
+    <namespaces>microservice</namespaces>
+    <namespaces>eurekaserver</namespaces>
+    <imports xsi:type="imports:ClassifierImport" classifier="/183/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>boot</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/160/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>boot</namespaces>
+      <namespaces>autoconfigure</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/161/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>cloud</namespaces>
+      <namespaces>netflix</namespaces>
+      <namespaces>eureka</namespaces>
+      <namespaces>server</namespaces>
+    </imports>
+    <classifiers xsi:type="classifiers:Class" name="EurekaApplication">
+      <members xsi:type="members:ClassMethod" name="main">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="args">
+          <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+          <arrayDimensionsBefore/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="modifiers:Static"/>
+      </members>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/161/@classifiers.0"/>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/160/@classifiers.0"/>
+    </classifiers>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="OrderService.java">
+    <namespaces>com</namespaces>
+    <namespaces>ewolff</namespaces>
+    <namespaces>microservice</namespaces>
+    <namespaces>order</namespaces>
+    <namespaces>logic</namespaces>
+    <imports xsi:type="imports:ClassifierImport" classifier="/162/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>beans</namespaces>
+      <namespaces>factory</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/4/@classifiers.1">
+      <namespaces>com</namespaces>
+      <namespaces>ewolff</namespaces>
+      <namespaces>microservice</namespaces>
+      <namespaces>order</namespaces>
+      <namespaces>clients</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/14/@classifiers.0">
+      <namespaces>com</namespaces>
+      <namespaces>ewolff</namespaces>
+      <namespaces>microservice</namespaces>
+      <namespaces>order</namespaces>
+      <namespaces>clients</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/163/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>stereotype</namespaces>
+    </imports>
+    <classifiers xsi:type="classifiers:Class" name="OrderService">
+      <members xsi:type="members:Field" name="orderRepository">
+        <typeReference xsi:type="types:ClassifierReference" target="/8/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="customerClient">
+        <typeReference xsi:type="types:ClassifierReference" target="/14/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="itemClient">
+        <typeReference xsi:type="types:ClassifierReference" target="/4/@classifiers.1"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getPrice">
+        <typeReference xsi:type="types:Double"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="orderId">
+          <typeReference xsi:type="types:Long"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="order">
+        <typeReference xsi:type="types:ClassifierReference" target="/22/@classifiers.0"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="order">
+          <typeReference xsi:type="types:ClassifierReference" target="/22/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/163/@classifiers.0"/>
+    </classifiers>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="Item.java">
+    <namespaces>com</namespaces>
+    <namespaces>ewolff</namespaces>
+    <namespaces>microservice</namespaces>
+    <namespaces>order</namespaces>
+    <namespaces>clients</namespaces>
+    <imports xsi:type="imports:ClassifierImport" classifier="/174/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>apache</namespaces>
+      <namespaces>commons</namespaces>
+      <namespaces>lang</namespaces>
+      <namespaces>builder</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/165/@classifiers.0">
+      <namespaces>com</namespaces>
+      <namespaces>fasterxml</namespaces>
+      <namespaces>jackson</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/176/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>apache</namespaces>
+      <namespaces>commons</namespaces>
+      <namespaces>lang</namespaces>
+      <namespaces>builder</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/167/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>hateoas</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/178/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>apache</namespaces>
+      <namespaces>commons</namespaces>
+      <namespaces>lang</namespaces>
+      <namespaces>builder</namespaces>
+    </imports>
+    <classifiers xsi:type="classifiers:Class" name="Item">
+      <members xsi:type="members:Field" name="price">
+        <typeReference xsi:type="types:Double"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="name">
+        <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="itemId">
+        <typeReference xsi:type="types:Long"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getItemId">
+        <typeReference xsi:type="types:Long"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getPrice">
+        <typeReference xsi:type="types:Double"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="toString">
+        <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/21/@classifiers.1"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getName">
+        <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="hashCode">
+        <typeReference xsi:type="types:Int"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/21/@classifiers.2"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setName">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="name">
+          <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setItemId">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="id">
+          <typeReference xsi:type="types:Long"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="equals">
+        <typeReference xsi:type="types:Boolean"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="obj">
+          <typeReference xsi:type="types:ClassifierReference" target="/186/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/21/@classifiers.3"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setPrice">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="price">
+          <typeReference xsi:type="types:Double"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:Field" name="name">
+        <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="price">
+        <typeReference xsi:type="types:Double"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="id">
+        <typeReference xsi:type="types:ClassifierReference" target="/185/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setId">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="id">
+          <typeReference xsi:type="types:ClassifierReference" target="/185/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="equals">
+        <typeReference xsi:type="types:Boolean"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="obj">
+          <typeReference xsi:type="types:ClassifierReference" target="/186/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/18/@classifiers.2"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="toString">
+        <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/18/@classifiers.0"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setName">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="name">
+          <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setPrice">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="price">
+          <typeReference xsi:type="types:Double"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getPrice">
+        <typeReference xsi:type="types:Double"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getId">
+        <typeReference xsi:type="types:ClassifierReference" target="/185/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="hashCode">
+        <typeReference xsi:type="types:Int"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/18/@classifiers.1"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getName">
+        <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/171/@classifiers.0"/>
+      <extends xsi:type="types:ClassifierReference" target="/167/@classifiers.0"/>
+    </classifiers>
+    <classifiers xsi:type="classifiers:Annotation" name="Override"/>
+    <classifiers xsi:type="classifiers:Annotation" name="Override"/>
+    <classifiers xsi:type="classifiers:Annotation" name="Override"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="Order.java">
+    <namespaces>com</namespaces>
+    <namespaces>ewolff</namespaces>
+    <namespaces>microservice</namespaces>
+    <namespaces>order</namespaces>
+    <namespaces>logic</namespaces>
+    <imports xsi:type="imports:ClassifierImport" classifier="/169/@classifiers.0">
+      <namespaces>java</namespaces>
+      <namespaces>util</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/170/@classifiers.0">
+      <namespaces>java</namespaces>
+      <namespaces>util</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/171/@classifiers.0">
+      <namespaces>javax</namespaces>
+      <namespaces>persistence</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/172/@classifiers.0">
+      <namespaces>javax</namespaces>
+      <namespaces>persistence</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/173/@classifiers.0">
+      <namespaces>javax</namespaces>
+      <namespaces>persistence</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/174/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>apache</namespaces>
+      <namespaces>commons</namespaces>
+      <namespaces>lang</namespaces>
+      <namespaces>builder</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/4/@classifiers.1">
+      <namespaces>com</namespaces>
+      <namespaces>ewolff</namespaces>
+      <namespaces>microservice</namespaces>
+      <namespaces>order</namespaces>
+      <namespaces>clients</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/175/@classifiers.0">
+      <namespaces>javax</namespaces>
+      <namespaces>persistence</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/176/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>apache</namespaces>
+      <namespaces>commons</namespaces>
+      <namespaces>lang</namespaces>
+      <namespaces>builder</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/177/@classifiers.0">
+      <namespaces>javax</namespaces>
+      <namespaces>persistence</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/178/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>apache</namespaces>
+      <namespaces>commons</namespaces>
+      <namespaces>lang</namespaces>
+      <namespaces>builder</namespaces>
+    </imports>
+    <classifiers xsi:type="classifiers:Class" name="Order">
+      <members xsi:type="members:Field" name="orderLine">
+        <typeReference xsi:type="types:ClassifierReference" target="/169/@classifiers.0">
+          <typeArguments xsi:type="generics:QualifiedTypeArgument">
+            <typeReference xsi:type="types:ClassifierReference" target="/17/@classifiers.0"/>
+          </typeArguments>
+        </typeReference>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="id">
+        <typeReference xsi:type="types:Long"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="customerId">
+        <typeReference xsi:type="types:Long"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getId">
+        <typeReference xsi:type="types:Long"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setCustomer">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="customerId">
+          <typeReference xsi:type="types:Long"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getNumberOfLines">
+        <typeReference xsi:type="types:Int"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="hashCode">
+        <typeReference xsi:type="types:Int"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/22/@classifiers.3"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="equals">
+        <typeReference xsi:type="types:Boolean"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="obj">
+          <typeReference xsi:type="types:ClassifierReference" target="/186/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/22/@classifiers.1"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getOrderLine">
+        <typeReference xsi:type="types:ClassifierReference" target="/169/@classifiers.0">
+          <typeArguments xsi:type="generics:QualifiedTypeArgument">
+            <typeReference xsi:type="types:ClassifierReference" target="/17/@classifiers.0"/>
+          </typeArguments>
+        </typeReference>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setCustomerId">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="customerId">
+          <typeReference xsi:type="types:Long"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="totalPrice">
+        <typeReference xsi:type="types:Double"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="itemClient">
+          <typeReference xsi:type="types:ClassifierReference" target="/4/@classifiers.1"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="addLine">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="count">
+          <typeReference xsi:type="types:Int"/>
+        </parameters>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="itemId">
+          <typeReference xsi:type="types:Long"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setOrderLine">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="orderLine">
+          <typeReference xsi:type="types:ClassifierReference" target="/169/@classifiers.0">
+            <typeArguments xsi:type="generics:QualifiedTypeArgument">
+              <typeReference xsi:type="types:ClassifierReference" target="/17/@classifiers.0"/>
+            </typeArguments>
+          </typeReference>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setId">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="id">
+          <typeReference xsi:type="types:Long"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getCustomerId">
+        <typeReference xsi:type="types:Long"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="toString">
+        <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/22/@classifiers.2"/>
+      </members>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/173/@classifiers.0">
+        <parameter xsi:type="annotations:AnnotationParameterList">
+          <settings>
+            <value xsi:type="references:StringReference" value="&quot;ORDERTABLE&quot;"/>
+          </settings>
+        </parameter>
+      </annotationsAndModifiers>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/171/@classifiers.0"/>
+    </classifiers>
+    <classifiers xsi:type="classifiers:Annotation" name="Override"/>
+    <classifiers xsi:type="classifiers:Annotation" name="Override"/>
+    <classifiers xsi:type="classifiers:Annotation" name="Override"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="TurbineApplication.java">
+    <namespaces>com</namespaces>
+    <namespaces>ewolff</namespaces>
+    <namespaces>microservice</namespaces>
+    <namespaces>turbine</namespaces>
+    <imports xsi:type="imports:ClassifierImport" classifier="/179/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>cloud</namespaces>
+      <namespaces>netflix</namespaces>
+      <namespaces>eureka</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/180/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>cloud</namespaces>
+      <namespaces>netflix</namespaces>
+      <namespaces>turbine</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/181/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>boot</namespaces>
+      <namespaces>autoconfigure</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/182/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>cloud</namespaces>
+      <namespaces>netflix</namespaces>
+      <namespaces>hystrix</namespaces>
+      <namespaces>dashboard</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/183/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>boot</namespaces>
+    </imports>
+    <classifiers xsi:type="classifiers:Class" name="TurbineApplication">
+      <members xsi:type="members:ClassMethod" name="main">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="args">
+          <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+          <arrayDimensionsBefore/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="modifiers:Static"/>
+      </members>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/180/@classifiers.0"/>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/181/@classifiers.0"/>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/179/@classifiers.0"/>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/182/@classifiers.0"/>
+    </classifiers>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.boot.autoconfigure.SpringBootApplication.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>boot</namespaces>
+    <namespaces>autoconfigure</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.cloud.netflix.zuul.EnableZuulProxy.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>cloud</namespaces>
+    <namespaces>netflix</namespaces>
+    <namespaces>zuul</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="EnableZuulProxy"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.boot.builder.SpringApplicationBuilder.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>boot</namespaces>
+    <namespaces>builder</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="SpringApplicationBuilder"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="javax.persistence.Entity.java">
+    <namespaces>javax</namespaces>
+    <namespaces>persistence</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="javax.persistence.GeneratedValue.java">
+    <namespaces>javax</namespaces>
+    <namespaces>persistence</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.apache.commons.lang.builder.ToStringBuilder.java">
+    <namespaces>org</namespaces>
+    <namespaces>apache</namespaces>
+    <namespaces>commons</namespaces>
+    <namespaces>lang</namespaces>
+    <namespaces>builder</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="javax.persistence.Column.java">
+    <namespaces>javax</namespaces>
+    <namespaces>persistence</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="javax.persistence.Id.java">
+    <namespaces>javax</namespaces>
+    <namespaces>persistence</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.apache.commons.lang.builder.EqualsBuilder.java">
+    <namespaces>org</namespaces>
+    <namespaces>apache</namespaces>
+    <namespaces>commons</namespaces>
+    <namespaces>lang</namespaces>
+    <namespaces>builder</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.apache.commons.lang.builder.HashCodeBuilder.java">
+    <namespaces>org</namespaces>
+    <namespaces>apache</namespaces>
+    <namespaces>commons</namespaces>
+    <namespaces>lang</namespaces>
+    <namespaces>builder</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="javax.validation.constraints.Email.java">
+    <namespaces>javax</namespaces>
+    <namespaces>validation</namespaces>
+    <namespaces>constraints</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="Email"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.stereotype.Component.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>stereotype</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.cloud.client.discovery.EnableDiscoveryClient.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>cloud</namespaces>
+    <namespaces>client</namespaces>
+    <namespaces>discovery</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.boot.SpringApplication.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>boot</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="javax.annotation.PostConstruct.java">
+    <namespaces>javax</namespaces>
+    <namespaces>annotation</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.context.annotation.ComponentScan.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>context</namespaces>
+    <namespaces>annotation</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.boot.autoconfigure.EnableAutoConfiguration.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>boot</namespaces>
+    <namespaces>autoconfigure</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.beans.factory.annotation.Autowired.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>beans</namespaces>
+    <namespaces>factory</namespaces>
+    <namespaces>annotation</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.context.annotation.Bean.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>context</namespaces>
+    <namespaces>annotation</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.data.rest.core.config.RepositoryRestConfiguration.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>data</namespaces>
+    <namespaces>rest</namespaces>
+    <namespaces>core</namespaces>
+    <namespaces>config</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>data</namespaces>
+    <namespaces>rest</namespaces>
+    <namespaces>webmvc</namespaces>
+    <namespaces>config</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.context.annotation.Configuration.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>context</namespaces>
+    <namespaces>annotation</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.data.rest.webmvc.config.RepositoryRestConfigurerAdapter.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>data</namespaces>
+    <namespaces>rest</namespaces>
+    <namespaces>webmvc</namespaces>
+    <namespaces>config</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="java.util.Arrays.java">
+    <namespaces>java</namespaces>
+    <namespaces>util</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.beans.factory.annotation.Value.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>beans</namespaces>
+    <namespaces>factory</namespaces>
+    <namespaces>annotation</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand.java">
+    <namespaces>com</namespaces>
+    <namespaces>netflix</namespaces>
+    <namespaces>hystrix</namespaces>
+    <namespaces>contrib</namespaces>
+    <namespaces>javanica</namespaces>
+    <namespaces>annotation</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="HystrixCommand"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="com.fasterxml.jackson.databind.ObjectMapper.java">
+    <namespaces>com</namespaces>
+    <namespaces>fasterxml</namespaces>
+    <namespaces>jackson</namespaces>
+    <namespaces>databind</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.web.client.RestTemplate.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>web</namespaces>
+    <namespaces>client</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.slf4j.LoggerFactory.java">
+    <namespaces>org</namespaces>
+    <namespaces>slf4j</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.hateoas.PagedModel.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>hateoas</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="java.util.Collections.java">
+    <namespaces>java</namespaces>
+    <namespaces>util</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="java.util.Collection.java">
+    <namespaces>java</namespaces>
+    <namespaces>util</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.hateoas.MediaTypes.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>hateoas</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.http.converter.HttpMessageConverter.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>http</namespaces>
+    <namespaces>converter</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty.java">
+    <namespaces>com</namespaces>
+    <namespaces>netflix</namespaces>
+    <namespaces>hystrix</namespaces>
+    <namespaces>contrib</namespaces>
+    <namespaces>javanica</namespaces>
+    <namespaces>annotation</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="HystrixProperty"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.beans.factory.annotation.Autowired.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>beans</namespaces>
+    <namespaces>factory</namespaces>
+    <namespaces>annotation</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.stereotype.Component.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>stereotype</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.cloud.client.loadbalancer.LoadBalancerClient.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>cloud</namespaces>
+    <namespaces>client</namespaces>
+    <namespaces>loadbalancer</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>http</namespaces>
+    <namespaces>converter</namespaces>
+    <namespaces>json</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.slf4j.Logger.java">
+    <namespaces>org</namespaces>
+    <namespaces>slf4j</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.hateoas.mediatype.hal.Jackson2HalModule.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>hateoas</namespaces>
+    <namespaces>mediatype</namespaces>
+    <namespaces>hal</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.cloud.client.ServiceInstance.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>cloud</namespaces>
+    <namespaces>client</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.data.rest.core.config.RepositoryRestConfiguration.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>data</namespaces>
+    <namespaces>rest</namespaces>
+    <namespaces>core</namespaces>
+    <namespaces>config</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.context.annotation.Configuration.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>context</namespaces>
+    <namespaces>annotation</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.context.annotation.Bean.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>context</namespaces>
+    <namespaces>annotation</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>data</namespaces>
+    <namespaces>rest</namespaces>
+    <namespaces>webmvc</namespaces>
+    <namespaces>config</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.data.rest.webmvc.config.RepositoryRestConfigurerAdapter.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>data</namespaces>
+    <namespaces>rest</namespaces>
+    <namespaces>webmvc</namespaces>
+    <namespaces>config</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.apache.commons.lang.builder.EqualsBuilder.java">
+    <namespaces>org</namespaces>
+    <namespaces>apache</namespaces>
+    <namespaces>commons</namespaces>
+    <namespaces>lang</namespaces>
+    <namespaces>builder</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.apache.commons.lang.builder.HashCodeBuilder.java">
+    <namespaces>org</namespaces>
+    <namespaces>apache</namespaces>
+    <namespaces>commons</namespaces>
+    <namespaces>lang</namespaces>
+    <namespaces>builder</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.apache.commons.lang.builder.ToStringBuilder.java">
+    <namespaces>org</namespaces>
+    <namespaces>apache</namespaces>
+    <namespaces>commons</namespaces>
+    <namespaces>lang</namespaces>
+    <namespaces>builder</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="com.fasterxml.jackson.annotation.JsonProperty.java">
+    <namespaces>com</namespaces>
+    <namespaces>fasterxml</namespaces>
+    <namespaces>jackson</namespaces>
+    <namespaces>annotation</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.hateoas.RepresentationModel.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>hateoas</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="java.util.List.java">
+    <namespaces>java</namespaces>
+    <namespaces>util</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.data.repository.query.Param.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>data</namespaces>
+    <namespaces>repository</namespaces>
+    <namespaces>query</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.data.repository.PagingAndSortingRepository.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>data</namespaces>
+    <namespaces>repository</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.data.rest.core.annotation.RepositoryRestResource.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>data</namespaces>
+    <namespaces>rest</namespaces>
+    <namespaces>core</namespaces>
+    <namespaces>annotation</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.data.rest.core.annotation.RepositoryRestResource.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>data</namespaces>
+    <namespaces>rest</namespaces>
+    <namespaces>core</namespaces>
+    <namespaces>annotation</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.data.repository.PagingAndSortingRepository.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>data</namespaces>
+    <namespaces>repository</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.beans.factory.annotation.Autowired.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>beans</namespaces>
+    <namespaces>factory</namespaces>
+    <namespaces>annotation</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.web.servlet.ModelAndView.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>web</namespaces>
+    <namespaces>servlet</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.web.bind.annotation.RequestMapping.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>web</namespaces>
+    <namespaces>bind</namespaces>
+    <namespaces>annotation</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="com.ewolff.microservice.catalog.ItemRepository.java">
+    <namespaces>com</namespaces>
+    <namespaces>ewolff</namespaces>
+    <namespaces>microservice</namespaces>
+    <namespaces>catalog</namespaces>
+    <classifiers xsi:type="classifiers:Interface" name="ItemRepository">
+      <members xsi:type="members:ClassMethod" name="findByNameContaining">
+        <typeReference xsi:type="types:ClassifierReference" target="/169/@classifiers.0">
+          <typeArguments xsi:type="generics:QualifiedTypeArgument">
+            <typeReference xsi:type="types:ClassifierReference" target="/21/@classifiers.0"/>
+          </typeArguments>
+        </typeReference>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="name">
+          <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        </parameters>
+      </members>
+      <members xsi:type="members:ClassMethod" name="findByName">
+        <typeReference xsi:type="types:ClassifierReference" target="/169/@classifiers.0">
+          <typeArguments xsi:type="generics:QualifiedTypeArgument">
+            <typeReference xsi:type="types:ClassifierReference" target="/21/@classifiers.0"/>
+          </typeArguments>
+        </typeReference>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="name">
+          <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        </parameters>
+      </members>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/144/@classifiers.0">
+        <parameter xsi:type="annotations:AnnotationParameterList">
+          <settings>
+            <value xsi:type="references:StringReference" value="&quot;catalog&quot;"/>
+          </settings>
+          <settings>
+            <value xsi:type="references:StringReference" value="&quot;catalog&quot;"/>
+          </settings>
+        </parameter>
+      </annotationsAndModifiers>
+      <extends xsi:type="types:ClassifierReference" target="/143/@classifiers.0">
+        <typeArguments xsi:type="generics:QualifiedTypeArgument">
+          <typeReference xsi:type="types:ClassifierReference" target="/21/@classifiers.0"/>
+        </typeArguments>
+        <typeArguments xsi:type="generics:QualifiedTypeArgument">
+          <typeReference xsi:type="types:ClassifierReference" target="/185/@classifiers.0"/>
+        </typeArguments>
+      </extends>
+    </classifiers>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.web.bind.annotation.RequestParam.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>web</namespaces>
+    <namespaces>bind</namespaces>
+    <namespaces>annotation</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="RequestParam"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.stereotype.Controller.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>stereotype</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.http.MediaType.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>http</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.web.bind.annotation.PathVariable.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>web</namespaces>
+    <namespaces>bind</namespaces>
+    <namespaces>annotation</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="javax.annotation.PostConstruct.java">
+    <namespaces>javax</namespaces>
+    <namespaces>annotation</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="PostConstruct"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.beans.factory.annotation.Autowired.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>beans</namespaces>
+    <namespaces>factory</namespaces>
+    <namespaces>annotation</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.boot.SpringApplication.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>boot</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.boot.autoconfigure.EnableAutoConfiguration.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>boot</namespaces>
+    <namespaces>autoconfigure</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.context.annotation.ComponentScan.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>context</namespaces>
+    <namespaces>annotation</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="ComponentScan"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.cloud.client.discovery.EnableDiscoveryClient.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>cloud</namespaces>
+    <namespaces>client</namespaces>
+    <namespaces>discovery</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.stereotype.Component.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>stereotype</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.web.bind.annotation.ModelAttribute.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>web</namespaces>
+    <namespaces>bind</namespaces>
+    <namespaces>annotation</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="ModelAttribute"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.web.bind.annotation.RequestMapping.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>web</namespaces>
+    <namespaces>bind</namespaces>
+    <namespaces>annotation</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="java.util.Collection.java">
+    <namespaces>java</namespaces>
+    <namespaces>util</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.beans.factory.annotation.Autowired.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>beans</namespaces>
+    <namespaces>factory</namespaces>
+    <namespaces>annotation</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.stereotype.Controller.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>stereotype</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.web.bind.annotation.PathVariable.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>web</namespaces>
+    <namespaces>bind</namespaces>
+    <namespaces>annotation</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.web.servlet.ModelAndView.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>web</namespaces>
+    <namespaces>servlet</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.boot.autoconfigure.SpringBootApplication.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>boot</namespaces>
+    <namespaces>autoconfigure</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.boot.SpringApplication.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>boot</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>cloud</namespaces>
+    <namespaces>client</namespaces>
+    <namespaces>circuitbreaker</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="EnableCircuitBreaker"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.cloud.netflix.ribbon.RibbonClient.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>cloud</namespaces>
+    <namespaces>netflix</namespaces>
+    <namespaces>ribbon</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="RibbonClient"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.cloud.client.discovery.EnableDiscoveryClient.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>cloud</namespaces>
+    <namespaces>client</namespaces>
+    <namespaces>discovery</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="EnableDiscoveryClient"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.http.MediaType.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>http</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="MediaType"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.web.bind.annotation.PathVariable.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>web</namespaces>
+    <namespaces>bind</namespaces>
+    <namespaces>annotation</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="PathVariable"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="com.ewolff.microservice.customer.CustomerRepository.java">
+    <namespaces>com</namespaces>
+    <namespaces>ewolff</namespaces>
+    <namespaces>microservice</namespaces>
+    <namespaces>customer</namespaces>
+    <classifiers xsi:type="classifiers:Interface" name="CustomerRepository">
+      <members xsi:type="members:ClassMethod" name="findByName">
+        <typeReference xsi:type="types:ClassifierReference" target="/169/@classifiers.0">
+          <typeArguments xsi:type="generics:QualifiedTypeArgument">
+            <typeReference xsi:type="types:ClassifierReference" target="/6/@classifiers.0"/>
+          </typeArguments>
+        </typeReference>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="name">
+          <typeReference xsi:type="types:ClassifierReference" target="/184/@classifiers.0"/>
+        </parameters>
+      </members>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/144/@classifiers.0">
+        <parameter xsi:type="annotations:AnnotationParameterList">
+          <settings>
+            <value xsi:type="references:StringReference" value="&quot;customer&quot;"/>
+          </settings>
+          <settings>
+            <value xsi:type="references:StringReference" value="&quot;customer&quot;"/>
+          </settings>
+        </parameter>
+      </annotationsAndModifiers>
+      <extends xsi:type="types:ClassifierReference" target="/143/@classifiers.0">
+        <typeArguments xsi:type="generics:QualifiedTypeArgument">
+          <typeReference xsi:type="types:ClassifierReference" target="/6/@classifiers.0"/>
+        </typeArguments>
+        <typeArguments xsi:type="generics:QualifiedTypeArgument">
+          <typeReference xsi:type="types:ClassifierReference" target="/185/@classifiers.0"/>
+        </typeArguments>
+      </extends>
+    </classifiers>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.stereotype.Controller.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>stereotype</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="Controller"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.web.bind.annotation.RequestMapping.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>web</namespaces>
+    <namespaces>bind</namespaces>
+    <namespaces>annotation</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="RequestMapping"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.beans.factory.annotation.Autowired.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>beans</namespaces>
+    <namespaces>factory</namespaces>
+    <namespaces>annotation</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="javax.servlet.http.HttpServletRequest.java">
+    <namespaces>javax</namespaces>
+    <namespaces>servlet</namespaces>
+    <namespaces>http</namespaces>
+    <classifiers xsi:type="classifiers:Interface" name="HttpServletRequest"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.web.servlet.ModelAndView.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>web</namespaces>
+    <namespaces>servlet</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="ModelAndView"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.web.client.RestTemplate.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>web</namespaces>
+    <namespaces>client</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="RestTemplate"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.http.ResponseEntity.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>http</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="ResponseEntity"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.hateoas.MediaTypes.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>hateoas</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="MediaTypes"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>http</namespaces>
+    <namespaces>converter</namespaces>
+    <namespaces>json</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="MappingJackson2HttpMessageConverter"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.beans.factory.annotation.Value.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>beans</namespaces>
+    <namespaces>factory</namespaces>
+    <namespaces>annotation</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="Value"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="java.util.Arrays.java">
+    <namespaces>java</namespaces>
+    <namespaces>util</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="Arrays"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="java.util.Collections.java">
+    <namespaces>java</namespaces>
+    <namespaces>util</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="Collections"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.beans.factory.annotation.Autowired.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>beans</namespaces>
+    <namespaces>factory</namespaces>
+    <namespaces>annotation</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.slf4j.Logger.java">
+    <namespaces>org</namespaces>
+    <namespaces>slf4j</namespaces>
+    <classifiers xsi:type="classifiers:Interface" name="Logger"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.hateoas.PagedModel.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>hateoas</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="PagedModel"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.slf4j.LoggerFactory.java">
+    <namespaces>org</namespaces>
+    <namespaces>slf4j</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="LoggerFactory"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.cloud.client.ServiceInstance.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>cloud</namespaces>
+    <namespaces>client</namespaces>
+    <classifiers xsi:type="classifiers:Interface" name="ServiceInstance"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="java.util.Collection.java">
+    <namespaces>java</namespaces>
+    <namespaces>util</namespaces>
+    <classifiers xsi:type="classifiers:Interface" name="Collection"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.hateoas.mediatype.hal.Jackson2HalModule.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>hateoas</namespaces>
+    <namespaces>mediatype</namespaces>
+    <namespaces>hal</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="Jackson2HalModule"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.stereotype.Component.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>stereotype</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="Component"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.http.converter.HttpMessageConverter.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>http</namespaces>
+    <namespaces>converter</namespaces>
+    <classifiers xsi:type="classifiers:Interface" name="HttpMessageConverter"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.web.client.HttpClientErrorException.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>web</namespaces>
+    <namespaces>client</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="HttpClientErrorException"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.cloud.client.loadbalancer.LoadBalancerClient.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>cloud</namespaces>
+    <namespaces>client</namespaces>
+    <namespaces>loadbalancer</namespaces>
+    <classifiers xsi:type="classifiers:Interface" name="LoadBalancerClient"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="com.fasterxml.jackson.databind.ObjectMapper.java">
+    <namespaces>com</namespaces>
+    <namespaces>fasterxml</namespaces>
+    <namespaces>jackson</namespaces>
+    <namespaces>databind</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="ObjectMapper"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.data.rest.webmvc.config.RepositoryRestConfigurerAdapter.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>data</namespaces>
+    <namespaces>rest</namespaces>
+    <namespaces>webmvc</namespaces>
+    <namespaces>config</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="RepositoryRestConfigurerAdapter"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>data</namespaces>
+    <namespaces>rest</namespaces>
+    <namespaces>webmvc</namespaces>
+    <namespaces>config</namespaces>
+    <classifiers xsi:type="classifiers:Interface" name="RepositoryRestConfigurer"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.context.annotation.Bean.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>context</namespaces>
+    <namespaces>annotation</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="Bean"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.context.annotation.Configuration.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>context</namespaces>
+    <namespaces>annotation</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="Configuration"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.data.rest.core.config.RepositoryRestConfiguration.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>data</namespaces>
+    <namespaces>rest</namespaces>
+    <namespaces>core</namespaces>
+    <namespaces>config</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="RepositoryRestConfiguration"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.data.repository.query.Param.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>data</namespaces>
+    <namespaces>repository</namespaces>
+    <namespaces>query</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="Param"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="java.util.List.java">
+    <namespaces>java</namespaces>
+    <namespaces>util</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.data.repository.PagingAndSortingRepository.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>data</namespaces>
+    <namespaces>repository</namespaces>
+    <classifiers xsi:type="classifiers:Interface" name="PagingAndSortingRepository"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.data.rest.core.annotation.RepositoryRestResource.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>data</namespaces>
+    <namespaces>rest</namespaces>
+    <namespaces>core</namespaces>
+    <namespaces>annotation</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="RepositoryRestResource"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="javax.persistence.GeneratedValue.java">
+    <namespaces>javax</namespaces>
+    <namespaces>persistence</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="javax.persistence.Id.java">
+    <namespaces>javax</namespaces>
+    <namespaces>persistence</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="javax.persistence.Column.java">
+    <namespaces>javax</namespaces>
+    <namespaces>persistence</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.apache.commons.lang.builder.EqualsBuilder.java">
+    <namespaces>org</namespaces>
+    <namespaces>apache</namespaces>
+    <namespaces>commons</namespaces>
+    <namespaces>lang</namespaces>
+    <namespaces>builder</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.apache.commons.lang.builder.ToStringBuilder.java">
+    <namespaces>org</namespaces>
+    <namespaces>apache</namespaces>
+    <namespaces>commons</namespaces>
+    <namespaces>lang</namespaces>
+    <namespaces>builder</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="javax.persistence.Entity.java">
+    <namespaces>javax</namespaces>
+    <namespaces>persistence</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.apache.commons.lang.builder.HashCodeBuilder.java">
+    <namespaces>org</namespaces>
+    <namespaces>apache</namespaces>
+    <namespaces>commons</namespaces>
+    <namespaces>lang</namespaces>
+    <namespaces>builder</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="javax.persistence.GeneratedValue.java">
+    <namespaces>javax</namespaces>
+    <namespaces>persistence</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.apache.commons.lang.builder.ToStringBuilder.java">
+    <namespaces>org</namespaces>
+    <namespaces>apache</namespaces>
+    <namespaces>commons</namespaces>
+    <namespaces>lang</namespaces>
+    <namespaces>builder</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="javax.persistence.Column.java">
+    <namespaces>javax</namespaces>
+    <namespaces>persistence</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="Column"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.apache.commons.lang.builder.HashCodeBuilder.java">
+    <namespaces>org</namespaces>
+    <namespaces>apache</namespaces>
+    <namespaces>commons</namespaces>
+    <namespaces>lang</namespaces>
+    <namespaces>builder</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="javax.persistence.Entity.java">
+    <namespaces>javax</namespaces>
+    <namespaces>persistence</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="javax.persistence.Id.java">
+    <namespaces>javax</namespaces>
+    <namespaces>persistence</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.apache.commons.lang.builder.EqualsBuilder.java">
+    <namespaces>org</namespaces>
+    <namespaces>apache</namespaces>
+    <namespaces>commons</namespaces>
+    <namespaces>lang</namespaces>
+    <namespaces>builder</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.boot.SpringApplication.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>boot</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.boot.autoconfigure.SpringBootApplication.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>boot</namespaces>
+    <namespaces>autoconfigure</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="SpringBootApplication"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.cloud.netflix.eureka.server.EnableEurekaServer.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>cloud</namespaces>
+    <namespaces>netflix</namespaces>
+    <namespaces>eureka</namespaces>
+    <namespaces>server</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="EnableEurekaServer"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.beans.factory.annotation.Autowired.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>beans</namespaces>
+    <namespaces>factory</namespaces>
+    <namespaces>annotation</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="Autowired"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.stereotype.Service.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>stereotype</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="Service"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.apache.commons.lang.builder.EqualsBuilder.java">
+    <namespaces>org</namespaces>
+    <namespaces>apache</namespaces>
+    <namespaces>commons</namespaces>
+    <namespaces>lang</namespaces>
+    <namespaces>builder</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="com.fasterxml.jackson.annotation.JsonProperty.java">
+    <namespaces>com</namespaces>
+    <namespaces>fasterxml</namespaces>
+    <namespaces>jackson</namespaces>
+    <namespaces>annotation</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="JsonProperty"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.apache.commons.lang.builder.HashCodeBuilder.java">
+    <namespaces>org</namespaces>
+    <namespaces>apache</namespaces>
+    <namespaces>commons</namespaces>
+    <namespaces>lang</namespaces>
+    <namespaces>builder</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.hateoas.RepresentationModel.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>hateoas</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="RepresentationModel"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.apache.commons.lang.builder.ToStringBuilder.java">
+    <namespaces>org</namespaces>
+    <namespaces>apache</namespaces>
+    <namespaces>commons</namespaces>
+    <namespaces>lang</namespaces>
+    <namespaces>builder</namespaces>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="java.util.List.java">
+    <namespaces>java</namespaces>
+    <namespaces>util</namespaces>
+    <classifiers xsi:type="classifiers:Interface" name="List"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="java.util.ArrayList.java">
+    <namespaces>java</namespaces>
+    <namespaces>util</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="ArrayList"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="javax.persistence.Entity.java">
+    <namespaces>javax</namespaces>
+    <namespaces>persistence</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="Entity"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="javax.persistence.GeneratedValue.java">
+    <namespaces>javax</namespaces>
+    <namespaces>persistence</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="GeneratedValue"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="javax.persistence.Table.java">
+    <namespaces>javax</namespaces>
+    <namespaces>persistence</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="Table"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.apache.commons.lang.builder.EqualsBuilder.java">
+    <namespaces>org</namespaces>
+    <namespaces>apache</namespaces>
+    <namespaces>commons</namespaces>
+    <namespaces>lang</namespaces>
+    <namespaces>builder</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="EqualsBuilder"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="javax.persistence.Id.java">
+    <namespaces>javax</namespaces>
+    <namespaces>persistence</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="Id"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.apache.commons.lang.builder.HashCodeBuilder.java">
+    <namespaces>org</namespaces>
+    <namespaces>apache</namespaces>
+    <namespaces>commons</namespaces>
+    <namespaces>lang</namespaces>
+    <namespaces>builder</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="HashCodeBuilder"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="javax.persistence.OneToMany.java">
+    <namespaces>javax</namespaces>
+    <namespaces>persistence</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="OneToMany"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.apache.commons.lang.builder.ToStringBuilder.java">
+    <namespaces>org</namespaces>
+    <namespaces>apache</namespaces>
+    <namespaces>commons</namespaces>
+    <namespaces>lang</namespaces>
+    <namespaces>builder</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="ToStringBuilder"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.cloud.netflix.eureka.EnableEurekaClient.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>cloud</namespaces>
+    <namespaces>netflix</namespaces>
+    <namespaces>eureka</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="EnableEurekaClient"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.cloud.netflix.turbine.EnableTurbine.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>cloud</namespaces>
+    <namespaces>netflix</namespaces>
+    <namespaces>turbine</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="EnableTurbine"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.boot.autoconfigure.EnableAutoConfiguration.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>boot</namespaces>
+    <namespaces>autoconfigure</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="EnableAutoConfiguration"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>cloud</namespaces>
+    <namespaces>netflix</namespaces>
+    <namespaces>hystrix</namespaces>
+    <namespaces>dashboard</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="EnableHystrixDashboard"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.boot.SpringApplication.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>boot</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="SpringApplication"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="java.lang.String.java">
+    <namespaces>java</namespaces>
+    <namespaces>lang</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="String"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="java.lang.Long.java">
+    <namespaces>java</namespaces>
+    <namespaces>lang</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="Long"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="java.lang.Object.java">
+    <namespaces>java</namespaces>
+    <namespaces>lang</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="Object"/>
+  </containers:CompilationUnit>
+</xmi:XMI>

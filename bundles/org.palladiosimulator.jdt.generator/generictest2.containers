@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:annotations="http://www.palladiosimulator.org/javamodel/annotations" xmlns:classifiers="http://www.palladiosimulator.org/javamodel/classifiers" xmlns:containers="http://www.palladiosimulator.org/javamodel/containers" xmlns:generics="http://www.palladiosimulator.org/javamodel/generics" xmlns:imports="http://www.palladiosimulator.org/javamodel/imports" xmlns:members="http://www.palladiosimulator.org/javamodel/members" xmlns:modifiers="http://www.palladiosimulator.org/javamodel/modifiers" xmlns:parameters="http://www.palladiosimulator.org/javamodel/parameters" xmlns:types="http://www.palladiosimulator.org/javamodel/types">
+  <containers:CompilationUnit name="ICachable.java">
+    <namespaces>tools</namespaces>
+    <namespaces>descartes</namespaces>
+    <namespaces>teastore</namespaces>
+    <namespaces>image</namespaces>
+    <namespaces>cache</namespaces>
+    <namespaces>entry</namespaces>
+    <classifiers xsi:type="classifiers:Interface" name="ICachable">
+      <typeParameters name="D">
+        <extendTypes xsi:type="types:ClassifierReference" target="/0/@classifiers.0">
+          <typeArguments xsi:type="generics:QualifiedTypeArgument">
+            <typeReference xsi:type="types:ClassifierReference" target="/0/@classifiers.0/@typeParameters.0"/>
+          </typeArguments>
+        </extendTypes>
+      </typeParameters>
+      <members xsi:type="members:ClassMethod" name="getByteSize">
+        <typeReference xsi:type="types:Long"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getId">
+        <typeReference xsi:type="types:Long"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+    </classifiers>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="ICacheEntry.java">
+    <namespaces>tools</namespaces>
+    <namespaces>descartes</namespaces>
+    <namespaces>teastore</namespaces>
+    <namespaces>image</namespaces>
+    <namespaces>cache</namespaces>
+    <namespaces>entry</namespaces>
+    <classifiers xsi:type="classifiers:Interface" name="ICacheEntry">
+      <typeParameters name="T">
+        <extendTypes xsi:type="types:ClassifierReference" target="/0/@classifiers.0">
+          <typeArguments xsi:type="generics:QualifiedTypeArgument">
+            <typeReference xsi:type="types:ClassifierReference" target="/1/@classifiers.0/@typeParameters.0"/>
+          </typeArguments>
+        </extendTypes>
+      </typeParameters>
+      <members xsi:type="members:ClassMethod" name="getData">
+        <typeReference xsi:type="types:ClassifierReference" target="/1/@classifiers.0/@typeParameters.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="wasUsed">
+        <typeReference xsi:type="types:Void"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <extends xsi:type="types:ClassifierReference" target="/0/@classifiers.0">
+        <typeArguments xsi:type="generics:QualifiedTypeArgument">
+          <typeReference xsi:type="types:ClassifierReference" target="/1/@classifiers.0/@typeParameters.0"/>
+        </typeArguments>
+      </extends>
+    </classifiers>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="AbstractEntry.java">
+    <namespaces>tools</namespaces>
+    <namespaces>descartes</namespaces>
+    <namespaces>teastore</namespaces>
+    <namespaces>image</namespaces>
+    <namespaces>cache</namespaces>
+    <namespaces>entry</namespaces>
+    <imports xsi:type="imports:ClassifierImport" classifier="/5/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>slf4j</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/6/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>slf4j</namespaces>
+    </imports>
+    <classifiers xsi:type="classifiers:Class" name="AbstractEntry">
+      <typeParameters name="D">
+        <extendTypes xsi:type="types:ClassifierReference" target="/0/@classifiers.0">
+          <typeArguments xsi:type="generics:QualifiedTypeArgument">
+            <typeReference xsi:type="types:ClassifierReference" target="/2/@classifiers.0/@typeParameters.0"/>
+          </typeArguments>
+        </extendTypes>
+      </typeParameters>
+      <members xsi:type="members:Field" name="data">
+        <typeReference xsi:type="types:ClassifierReference" target="/2/@classifiers.0/@typeParameters.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="log">
+        <typeReference xsi:type="types:ClassifierReference" target="/6/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="equals">
+        <typeReference xsi:type="types:Boolean"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="obj">
+          <typeReference xsi:type="types:ClassifierReference" target="/7/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/2/@classifiers.5"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="wasUsed">
+        <typeReference xsi:type="types:Void"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="modifiers:Abstract"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/2/@classifiers.2"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="hashCode">
+        <typeReference xsi:type="types:Int"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/2/@classifiers.1"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getByteSize">
+        <typeReference xsi:type="types:Long"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/2/@classifiers.4"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getId">
+        <typeReference xsi:type="types:Long"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/2/@classifiers.3"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getData">
+        <typeReference xsi:type="types:ClassifierReference" target="/2/@classifiers.0/@typeParameters.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/2/@classifiers.6"/>
+      </members>
+      <implements xsi:type="types:ClassifierReference" target="/1/@classifiers.0">
+        <typeArguments xsi:type="generics:QualifiedTypeArgument">
+          <typeReference xsi:type="types:ClassifierReference" target="/2/@classifiers.0/@typeParameters.0"/>
+        </typeArguments>
+      </implements>
+    </classifiers>
+    <classifiers xsi:type="classifiers:Annotation" name="Override"/>
+    <classifiers xsi:type="classifiers:Annotation" name="Override"/>
+    <classifiers xsi:type="classifiers:Annotation" name="Override"/>
+    <classifiers xsi:type="classifiers:Annotation" name="Override"/>
+    <classifiers xsi:type="classifiers:Annotation" name="Override"/>
+    <classifiers xsi:type="classifiers:Annotation" name="Override"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="MeineGenerischeKlasse3.java">
+    <classifiers xsi:type="classifiers:Class" name="MeineGenerischeKlasse3">
+      <typeParameters name="T1"/>
+      <typeParameters name="T2"/>
+      <typeParameters name="T3"/>
+      <members xsi:type="members:Field" name="param1">
+        <typeReference xsi:type="types:ClassifierReference" target="/3/@classifiers.0/@typeParameters.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="param2">
+        <typeReference xsi:type="types:ClassifierReference" target="/3/@classifiers.0/@typeParameters.1"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="param3">
+        <typeReference xsi:type="types:ClassifierReference" target="/3/@classifiers.0/@typeParameters.2"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="meineMethode">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="parm1">
+          <typeReference xsi:type="types:ClassifierReference" target="/3/@classifiers.0/@typeParameters.0"/>
+        </parameters>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="parm2">
+          <typeReference xsi:type="types:ClassifierReference" target="/3/@classifiers.0/@typeParameters.1"/>
+        </parameters>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="parm3">
+          <typeReference xsi:type="types:ClassifierReference" target="/3/@classifiers.0/@typeParameters.2"/>
+        </parameters>
+      </members>
+    </classifiers>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="MeineGenerischeKlasse.java">
+    <classifiers xsi:type="classifiers:Class" name="MeineGenerischeKlasse">
+      <typeParameters name="T"/>
+      <members xsi:type="members:Field" name="attribut">
+        <typeReference xsi:type="types:ClassifierReference" target="/4/@classifiers.0/@typeParameters.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getAttribut">
+        <typeReference xsi:type="types:ClassifierReference" target="/4/@classifiers.0/@typeParameters.0"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setAttribut">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="attribut">
+          <typeReference xsi:type="types:ClassifierReference" target="/4/@classifiers.0/@typeParameters.0"/>
+        </parameters>
+      </members>
+    </classifiers>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.slf4j.LoggerFactory.java">
+    <namespaces>org</namespaces>
+    <namespaces>slf4j</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="LoggerFactory"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.slf4j.Logger.java">
+    <namespaces>org</namespaces>
+    <namespaces>slf4j</namespaces>
+    <classifiers xsi:type="classifiers:Interface" name="Logger"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="java.lang.Object.java">
+    <namespaces>java</namespaces>
+    <namespaces>lang</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="Object"/>
+  </containers:CompilationUnit>
+</xmi:XMI>

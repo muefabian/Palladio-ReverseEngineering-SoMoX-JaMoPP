@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:annotations="http://www.palladiosimulator.org/javamodel/annotations" xmlns:classifiers="http://www.palladiosimulator.org/javamodel/classifiers" xmlns:containers="http://www.palladiosimulator.org/javamodel/containers" xmlns:generics="http://www.palladiosimulator.org/javamodel/generics" xmlns:imports="http://www.palladiosimulator.org/javamodel/imports" xmlns:members="http://www.palladiosimulator.org/javamodel/members" xmlns:modifiers="http://www.palladiosimulator.org/javamodel/modifiers" xmlns:parameters="http://www.palladiosimulator.org/javamodel/parameters" xmlns:references="http://www.palladiosimulator.org/javamodel/references" xmlns:types="http://www.palladiosimulator.org/javamodel/types">
+  <containers:CompilationUnit name="BasicConfiguration.java">
+    <namespaces>com</namespaces>
+    <namespaces>in28minutes</namespaces>
+    <namespaces>springboot</namespaces>
+    <namespaces>tutorial</namespaces>
+    <namespaces>basics</namespaces>
+    <namespaces>application</namespaces>
+    <namespaces>configuration</namespaces>
+    <imports xsi:type="imports:ClassifierImport" classifier="/3/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>boot</namespaces>
+      <namespaces>context</namespaces>
+      <namespaces>properties</namespaces>
+    </imports>
+    <classifiers xsi:type="classifiers:Class" name="BasicConfiguration">
+      <members xsi:type="members:Field" name="message">
+        <typeReference xsi:type="types:ClassifierReference" target="/11/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="value">
+        <typeReference xsi:type="types:Boolean"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="number">
+        <typeReference xsi:type="types:Int"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getMessage">
+        <typeReference xsi:type="types:ClassifierReference" target="/11/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setMessage">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="message">
+          <typeReference xsi:type="types:ClassifierReference" target="/11/@classifiers.0"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="getNumber">
+        <typeReference xsi:type="types:Int"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setNumber">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="number">
+          <typeReference xsi:type="types:Int"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="setValue">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="value">
+          <typeReference xsi:type="types:Boolean"/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="isValue">
+        <typeReference xsi:type="types:Boolean"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+      </members>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/0/@classifiers.1"/>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/3/@classifiers.0">
+        <parameter xsi:type="annotations:SingleAnnotationParameter">
+          <value xsi:type="references:StringReference" value="&quot;basic&quot;"/>
+        </parameter>
+      </annotationsAndModifiers>
+    </classifiers>
+    <classifiers xsi:type="classifiers:Annotation" name="Component"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="WelcomeResource.java">
+    <namespaces>com</namespaces>
+    <namespaces>in28minutes</namespaces>
+    <namespaces>springboot</namespaces>
+    <namespaces>tutorial</namespaces>
+    <namespaces>basics</namespaces>
+    <namespaces>application</namespaces>
+    <namespaces>configuration</namespaces>
+    <imports xsi:type="imports:ClassifierImport" classifier="/4/@classifiers.0">
+      <namespaces>java</namespaces>
+      <namespaces>util</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/5/@classifiers.0">
+      <namespaces>java</namespaces>
+      <namespaces>util</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/6/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>web</namespaces>
+      <namespaces>bind</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/7/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>web</namespaces>
+      <namespaces>bind</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/8/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>web</namespaces>
+      <namespaces>bind</namespaces>
+      <namespaces>annotation</namespaces>
+    </imports>
+    <classifiers xsi:type="classifiers:Class" name="WelcomeResource">
+      <members xsi:type="members:Field" name="configuration">
+        <typeReference xsi:type="types:ClassifierReference" target="/0/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:Field" name="welcomeMessage">
+        <typeReference xsi:type="types:ClassifierReference" target="/11/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Private"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="dynamicConfiguration">
+        <typeReference xsi:type="types:ClassifierReference" target="/5/@classifiers.0">
+          <typeArguments xsi:type="generics:QualifiedTypeArgument">
+            <typeReference xsi:type="types:ClassifierReference" target="/11/@classifiers.0"/>
+          </typeArguments>
+          <typeArguments xsi:type="generics:QualifiedTypeArgument">
+            <typeReference xsi:type="types:ClassifierReference" target="/12/@classifiers.0"/>
+          </typeArguments>
+        </typeReference>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/6/@classifiers.0">
+          <parameter xsi:type="annotations:SingleAnnotationParameter">
+            <value xsi:type="references:StringReference" value="&quot;/dynamic-configuration&quot;"/>
+          </parameter>
+        </annotationsAndModifiers>
+      </members>
+      <members xsi:type="members:ClassMethod" name="retrieveWelcomeMessage">
+        <typeReference xsi:type="types:ClassifierReference" target="/11/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/7/@classifiers.0">
+          <parameter xsi:type="annotations:SingleAnnotationParameter">
+            <value xsi:type="references:StringReference" value="&quot;/welcome&quot;"/>
+          </parameter>
+        </annotationsAndModifiers>
+      </members>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/8/@classifiers.0"/>
+    </classifiers>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="SpringBootTutorialBasicsConfigurationApplication.java">
+    <namespaces>com</namespaces>
+    <namespaces>in28minutes</namespaces>
+    <namespaces>springboot</namespaces>
+    <namespaces>tutorial</namespaces>
+    <namespaces>basics</namespaces>
+    <namespaces>application</namespaces>
+    <namespaces>configuration</namespaces>
+    <imports xsi:type="imports:ClassifierImport" classifier="/9/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>boot</namespaces>
+      <namespaces>autoconfigure</namespaces>
+    </imports>
+    <imports xsi:type="imports:ClassifierImport" classifier="/10/@classifiers.0">
+      <namespaces>org</namespaces>
+      <namespaces>springframework</namespaces>
+      <namespaces>boot</namespaces>
+    </imports>
+    <classifiers xsi:type="classifiers:Class" name="SpringBootTutorialBasicsConfigurationApplication">
+      <members xsi:type="members:ClassMethod" name="prodBean">
+        <typeReference xsi:type="types:ClassifierReference" target="/11/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/2/@classifiers.1">
+          <parameter xsi:type="annotations:SingleAnnotationParameter">
+            <value xsi:type="references:StringReference" value="&quot;prod&quot;"/>
+          </parameter>
+        </annotationsAndModifiers>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/2/@classifiers.3"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="main">
+        <typeReference xsi:type="types:Void"/>
+        <parameters xsi:type="parameters:OrdinaryParameter" name="args">
+          <typeReference xsi:type="types:ClassifierReference" target="/11/@classifiers.0"/>
+          <arrayDimensionsBefore/>
+        </parameters>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="modifiers:Static"/>
+      </members>
+      <members xsi:type="members:ClassMethod" name="devBean">
+        <typeReference xsi:type="types:ClassifierReference" target="/11/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/2/@classifiers.2"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/2/@classifiers.5">
+          <parameter xsi:type="annotations:SingleAnnotationParameter">
+            <value xsi:type="references:StringReference" value="&quot;dev&quot;"/>
+          </parameter>
+        </annotationsAndModifiers>
+      </members>
+      <members xsi:type="members:ClassMethod" name="qaBean">
+        <typeReference xsi:type="types:ClassifierReference" target="/11/@classifiers.0"/>
+        <annotationsAndModifiers xsi:type="modifiers:Public"/>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/2/@classifiers.4">
+          <parameter xsi:type="annotations:SingleAnnotationParameter">
+            <value xsi:type="references:StringReference" value="&quot;qa&quot;"/>
+          </parameter>
+        </annotationsAndModifiers>
+        <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/2/@classifiers.6"/>
+      </members>
+      <annotationsAndModifiers xsi:type="annotations:AnnotationInstance" annotation="/9/@classifiers.0"/>
+    </classifiers>
+    <classifiers xsi:type="classifiers:Annotation" name="Profile"/>
+    <classifiers xsi:type="classifiers:Annotation" name="Bean"/>
+    <classifiers xsi:type="classifiers:Annotation" name="Bean"/>
+    <classifiers xsi:type="classifiers:Annotation" name="Profile"/>
+    <classifiers xsi:type="classifiers:Annotation" name="Profile"/>
+    <classifiers xsi:type="classifiers:Annotation" name="Bean"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.boot.context.properties.ConfigurationProperties.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>boot</namespaces>
+    <namespaces>context</namespaces>
+    <namespaces>properties</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="ConfigurationProperties"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="java.util.HashMap.java">
+    <namespaces>java</namespaces>
+    <namespaces>util</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="HashMap"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="java.util.Map.java">
+    <namespaces>java</namespaces>
+    <namespaces>util</namespaces>
+    <classifiers xsi:type="classifiers:Interface" name="Map"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.web.bind.annotation.RequestMapping.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>web</namespaces>
+    <namespaces>bind</namespaces>
+    <namespaces>annotation</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="RequestMapping"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.web.bind.annotation.GetMapping.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>web</namespaces>
+    <namespaces>bind</namespaces>
+    <namespaces>annotation</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="GetMapping"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.web.bind.annotation.RestController.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>web</namespaces>
+    <namespaces>bind</namespaces>
+    <namespaces>annotation</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="RestController"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.boot.autoconfigure.SpringBootApplication.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>boot</namespaces>
+    <namespaces>autoconfigure</namespaces>
+    <classifiers xsi:type="classifiers:Annotation" name="SpringBootApplication"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="org.springframework.boot.SpringApplication.java">
+    <namespaces>org</namespaces>
+    <namespaces>springframework</namespaces>
+    <namespaces>boot</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="SpringApplication"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="java.lang.String.java">
+    <namespaces>java</namespaces>
+    <namespaces>lang</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="String"/>
+  </containers:CompilationUnit>
+  <containers:CompilationUnit name="java.lang.Object.java">
+    <namespaces>java</namespaces>
+    <namespaces>lang</namespaces>
+    <classifiers xsi:type="classifiers:Class" name="Object"/>
+  </containers:CompilationUnit>
+</xmi:XMI>
