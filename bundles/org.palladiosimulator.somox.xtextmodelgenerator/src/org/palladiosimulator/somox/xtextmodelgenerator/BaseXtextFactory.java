@@ -19,8 +19,6 @@ import org.eclipse.emf.ecore.xmi.impl.XMIResourceFactoryImpl;
 
 public abstract class BaseXtextFactory {
 	
-	public abstract Resource createXMI(String[] inputfiles, String outputfile);
-	
 	public static void writeAndNormalizeEOL(String input, String output) {
 		try {
 			FileInputStream fis = new FileInputStream(input);

@@ -11,7 +11,7 @@ import org.palladiosimulator.docker.DockerFileStandaloneSetup;
 
 import com.google.inject.Injector;
 
-public class DockerfileFactory {
+public class DockerfileFactory extends BaseXtextFactory{
 	
 //	final static String OUT = "./dockerfile.xmi";
 	
@@ -39,7 +39,7 @@ public class DockerfileFactory {
 			}
 			
 			try {
-				BaseXtextFactory.writeAndNormalizeEOL(inputfiles[i], tempFile.toString());
+				writeAndNormalizeEOL(inputfiles[i], tempFile.toString());
 				rs.getResource(URI.createFileURI(tempFile.toString()), true);
 //				Files.delete(tempFile);
 			} catch (Exception e) {
@@ -48,13 +48,13 @@ public class DockerfileFactory {
 			}
 		}
 		
-		Resource xmiResource = BaseXtextFactory.createAndAddResource(outputfile, new String[] {"dockerFile"}, rs);
+		Resource xmiResource = createAndAddResource(outputfile, new String[] {"dockerFile"}, rs);
 
 		for (Resource res : rs.getResources()) {
 			xmiResource.getContents().add(res.getContents().get(0));
 		}
 		
-		BaseXtextFactory.saveResource(xmiResource);
+		saveResource(xmiResource);
 		
 		return xmiResource;
 	}

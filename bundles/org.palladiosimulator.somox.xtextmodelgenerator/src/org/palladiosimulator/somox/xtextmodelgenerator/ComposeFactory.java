@@ -11,7 +11,7 @@ import org.palladiosimulator.somox.docker.compose.ComposeFileStandaloneSetup;
 
 import com.google.inject.Injector;
 
-public class ComposeFactory {
+public class ComposeFactory extends BaseXtextFactory {
 	
 //	final static String OUT = "./dockermodel.xmi";
 	
@@ -39,7 +39,7 @@ public class ComposeFactory {
 			}
 			
 			try {
-				BaseXtextFactory.writeAndNormalizeEOL(inputfiles[i], tempFile.toString());
+				writeAndNormalizeEOL(inputfiles[i], tempFile.toString());
 				rs.getResource(URI.createFileURI(tempFile.toString()), true);
 //				Files.delete(tempFile);
 			} catch (Exception e) {
@@ -48,13 +48,13 @@ public class ComposeFactory {
 			}
 		}
 		
-		Resource xmiResource = BaseXtextFactory.createAndAddResource(outputfile, new String[] {"compose"}, rs);
+		Resource xmiResource = createAndAddResource(outputfile, new String[] {"compose"}, rs);
 
 		for (Resource res : rs.getResources()) {
 			xmiResource.getContents().add(res.getContents().get(0));
 		}
 		
-		BaseXtextFactory.saveResource(xmiResource);
+		saveResource(xmiResource);
 		
 		return xmiResource;
 	}
